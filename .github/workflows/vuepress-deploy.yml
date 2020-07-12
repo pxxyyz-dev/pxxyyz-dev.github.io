@@ -30,13 +30,11 @@ jobs:
     - name: Vuepress
       run: |
         yarn
-        yarn run docs:build
+        yarn run build
         cp README.md docs/.vuepress/dist
         cd docs/.vuepress/dist
-        # git config
         git config --global user.name 'pxxyyz-dev'
         git config --global user.email 'pxxyyz@gmail.com'
-        # git push
         git init
         git add -A
         git commit -m 'Update'
