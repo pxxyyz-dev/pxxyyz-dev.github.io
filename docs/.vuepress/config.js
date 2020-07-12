@@ -46,10 +46,10 @@ module.exports = {
       '@vuepress/last-updated',
       {
         transformer: (timestamp, lang) => {
-          const moment = require('moment')
-          moment.locale(lang)
-          return moment(timestamp).fromNow()
-          // return moment(timestamp).tz('Asia/Shanghai').locale('zh-CN').format('lll')
+          // const moment = require('moment')
+          // moment.locale(lang)
+          // return moment(timestamp).fromNow()
+          return moment(timestamp).tz('Asia/Shanghai').locale('zh-CN').format('lll')
         },
       },
     ],
