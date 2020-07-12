@@ -26,15 +26,15 @@ jobs:
         echo "$ACTION_DEPLOY_KEY" | tr -d '\r' > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan github.com >> ~/.ssh/known_hosts
-    
+
     - name: Vuepress
       run: |
         yarn
         yarn run docs:build
         cp README.md docs/.vuepress/dist
         cd docs/.vuepress/dist
-        git config --global user.name 'pxxyyz'
-        git config --global user.email 'pxxyyz@gmail.com'
+        # git config --global user.name 'pxxyyz'
+        # git config --global user.email 'pxxyyz@gmail.com'
         git init
         git add -A
         git commit -m 'Update'
