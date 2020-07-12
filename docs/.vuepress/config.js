@@ -28,8 +28,8 @@ module.exports = {
     sidebar: {
       '/guide/': genSidebarConfig('Guide'),
     },
-    editLinkText: 'Edit this page on GitHub',
-    lastUpdated: 'Last Updated',
+    editLinkText: '在 GitHub 上编辑此页',
+    lastUpdated: '上次更新时间:',
     docsRepo: 'pxxyyz-dev/pxxyyz-dev.github.io',
     docsDir: 'docs',
     docsBranch: 'source',

@@ -1,5 +1,6 @@
 ---
 pageClass: about-page
+editLink: false
 description: 'The biography and information about me.'
 avatar: /profile.jpg
 head: 'Harry Potter'
@@ -7,18 +8,18 @@ info: 'Student at Hogwarts School'
 interests: 'Interests: Quidditch and Wizard chess.'
 socials:
 - title: github
-  link: https://github.com/mtobeiyf
-- title: linkedin
-  link: https://www.linkedin.com
-- title: instagram
-  link: https://www.instagram.com
+  link: https://github.com/pxxyyz
+- title: zhihu-square
+  link: https://www.zhihu.com/people/pxxyyz
+- title: bilibili
+  link: https://space.bilibili.com/2981026
 - title: email
   link: 'mailto:harry[at]gmail.com'
 actions:
 - text: Projects
   link: /projects/
 - text: Blog
-  link: https://github.com/mtobeiyf
+  link: https://pxxyyz.com
 - text: CV
   link: /article/
 footer: Made with ♥ by Fing. Powered by VuePress
@@ -31,12 +32,9 @@ I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org
 </AboutCard>
 
 <style lang="stylus">
-
 .theme-container.about-page .page
   background-color #e6ecf0
   min-height calc(100vh)
-  
   .last-updated
     display none
-
 </style>
