@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "name": "pxxyyz-dev",
   "version": "1.0.0",
