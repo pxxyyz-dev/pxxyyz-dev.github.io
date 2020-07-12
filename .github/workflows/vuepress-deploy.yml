@@ -34,7 +34,7 @@ jobs:
         cp README.md docs/.vuepress/dist
         cd docs/.vuepress/dist
         # git config
-        git config --global user.name 'pxxyyz'
+        git config --global user.name 'pxxyyz-dev'
         git config --global user.email 'pxxyyz@gmail.com'
         # git push
         git init
