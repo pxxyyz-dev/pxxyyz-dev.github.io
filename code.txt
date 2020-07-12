@@ -1,0 +1,13 @@
+本地启动服务器
+
+yarn docs:dev
+
+常用插件的用法
+
+安装markdown-it-katex
+
+yarn add markdown-it-katex -D
+
+卸载markdown-it-katex
+
+yarn remove markdown-it-katex -D
