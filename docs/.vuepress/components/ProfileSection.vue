@@ -22,7 +22,7 @@
         <div class="email" title="Contact me">{{ data.email }}</div>
       </div>
       <div v-if="data.cv">
-        <a target="_blank" :href="data.cv" title="Download my CV in PDF">
+        <a target="_blank" :href="data.cv" title="Download CV in PDF">
           <font size="2em" color=""><b>[CV]</b></font>
         </a>
       </div>

@@ -118,4 +118,4 @@ export default {
 
 点击图片：
 
-<img src="/default.png" alt="演示" width="200"/>
+<p><img src="/default.png" alt="" class="medium-zoom-image" width="200"></p>

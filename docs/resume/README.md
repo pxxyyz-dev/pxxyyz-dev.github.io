@@ -2,8 +2,8 @@
 pageClass: home-page
 # some data for the components
 
-name: Harry Potter
-profile: /profile.jpg
+name: Albert Einstein
+profile: /profile.png
 
 socials:
   - title: github
@@ -16,65 +16,98 @@ socials:
     icon: "/icons/instagram-mono.svg"
     link: https://www.instagram.com
 
-cv: https://en.wikipedia.org/wiki/Harry_Potter
-bio: Student at Hogwarts School
-email: harry (at) hogwarts (dot) edu
+cv: https://en.wikipedia.org/wiki/Albert_Einstein
+bio: Father of modern physics
+email: a(dot)einstein(at)ias(dot)edu
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
-## About Me
+## About
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. 
+**Albert Einstein** (14 March 1879 – 18 April 1955) was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science. He is best known to the general public for his mass–energy equivalence formula $E = mc^2$, which has been dubbed "the world's most famous equation". He received the 1921 Nobel Prize in Physics "for his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect", a pivotal step in the development of quantum theory.
 
-I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
+## Current position
 
+*Emeritus Professor*, Institute for Advanced Study, Princeton
 
-## News
+## Related Experience& Achievements
 
-- [Sept 1991] Attended Hogwarts
-- [July 1980] Born in Godric's Hollow, West Country, England, Great Britain
+- Institute for Advanced Study, Princeton, NJ • 1933 – 1955
 
+  **Professor of Theoretical Physics**
 
-## Education & Experiences
+- California Institute of Technology, Pasadena, CA • 1933
 
-- **Hogwarts School of Witchcraft and Wizardry** <br/>
-Sept 1991 - 1997
+  **Visiting Professor**
 
+- Kaiser Wilhelm Institute for Physics, Berlin, Germany • 1917 – 1933
 
-## Projects
+  **Director**
 
+- Karl-Ferdinand University, Prague, Czechoslovakia • 1911 – 1917
+
+  **Professor of Theoretical Physics**
+
+- Zurich University, Zurich, Switzerland • 1909 – 1911
+
+  **Associate Professor of Theoretical Physics**
+
+- University of Bern, Bern, Switzerland • 1908 – 1909
+
+  **Associate Professor**
+
+- Federal Office for Intellectual Property, Bern, Switzerland • 1902 – 1909
+
+  **Assistant Examiner**
+
+## Education
+
+- PhD in Physics, ETH Zürich
+- MSc in Physics, ETH Zürich
+
+## LECTURES & HONORS
+
+- Key member of the National Academy of Science delegation that visited the White House
+- Guest Lecturer at King’s College in London
+- Key participant in a 6-month excursion and speaking tour to Singapore, Ceylon, Japan, and Palestine
+
+## Work
+
+### Annus mirabilis papers
+
+<ProjectCard>
+
+- Einstein, Albert (1905), “**On a Heuristic Viewpoint Concerning the Production and Transformation of Light**", Annalen der Physik 17: 132–148.
+
+  *Resolved an unsolved puzzle by suggesting that energy is exchanged only in discrete amounts (quanta). This idea was pivotal to the early development of quantum theory.*
+
+- Einstein, Albert (1905), “**On theMotion—Required by theMolecularKinetic Theory ofHeat—of Small Particles Suspended in a Stationary Liquid**", Annalen der Physik 17: 549–560.
+
+  *Explained empirical evidence for the atomic theory, supporting the application of statistical physics.*
+
+- Einstein, Albert (1905), “**On the Electrodynamics of Moving Bodies**", Annalen der Physik 17: 891–921.
+
+  *Reconciled Maxwell's equations for electricity and magnetism with the laws of mechanics by introducing changes to mechanics, resulting from analysis based on empirical evidence that the speed of light is independent of the motion of the observer. Discredited the concept of a "luminiferous ether".*
+
+- Einstein, Albert (1905), “**Does the Inertia of a Body Depend Upon Its Energy Content?**",Annalen der Physik 18: 639–641.
+
+  *Equivalence of matter and energy, $E = mc^2$ (and by implication, the ability of gravity to "bend" light), the existence of "rest energy", and the basis of nuclear energy.*
+
+</ProjectCard>
 
 [→ Full list](/projects/)
 
-<ProjectCard image="/projects/1.png" hideBorder=true>
-
-  **The Making of Harry Potter's Wand**
-
-  Harry P., Hermione G., *et al*
-
-  Harry's wand was broken in 1997, but was repaired by him after the 1998 Battle of Hogwarts. Usually the repair of a wand is impossible, but with the use of the Elder Wand it was achievable.
-
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
-
-</ProjectCard>
-
-<ProjectCard hideBorder=true>
-
-  **Harry Potter and the Deathly Hallows**
-
-  In the epilogue of Deathly Hallows, which is set 19 years after Voldemort's death, Harry and Ginny are a couple and have three children: James Sirius Potter, who has already been at Hogwarts for at least one year, Albus Severus Potter, who is starting his first year there, and Lily Luna Potter, who is two years away from her first year at the school.
-
-  [[Link](https://www.google.com)]
-
-</ProjectCard>
-
-
 ## Awards & Honors
 
-### Contests
-
-- First place in **The Hogwarts House Cup**
+- Nobel Prize in Physics
+- Matteucci Medal
+- Barnad Medal
+- ForMemRS
+- Copley Medal
+- Gold Medal of the Royal Astronomical Society
+- Max Planck Medal
+- Time - Person of the Century
 
 
 <!-- Custom style for this page -->
@@ -113,10 +146,10 @@ Sept 1991 - 1997
     p, ul, ol
       line-height 1.5
 
-    .md-card
-      .card-image
-        img 
-          width 100%
-          max-width 400px
+.md-card
+  .card-image
+    img 
+      width 100%
+      max-width 400px
 
 </style>

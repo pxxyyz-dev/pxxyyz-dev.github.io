@@ -26,7 +26,7 @@ module.exports = {
       },
     ],
     sidebar: {
-      '/guide/': genSidebarConfig('Guide'),
+      '/guide/': getGuideSidebar('指南', '深入'),
     },
     editLinkText: '在 GitHub 上编辑此页',
     lastUpdated: '上次更新时间',
@@ -66,16 +66,33 @@ module.exports = {
   ],
 };
 
-function genSidebarConfig (title) {
+function getGuideSidebar (groupA, groupB) {
   return [
     {
-      title,
+      title: groupA,
       collapsable: false,
       children: [
         '',
         'getting-started',
-        'customize',
+        'directory-structure',
+        'basic-config',
+        'assets',
+        'markdown',
+        'using-vue',
+        'i18n',
+        'deploy'
+      ]
+    },
+    {
+      title: groupB,
+      collapsable: false,
+      children: [
         'advanced',
+        'customize',
+        'frontmatter',
+        'permalinks',
+        'markdown-slot',
+        'global-computed'
       ]
     }
   ]
