@@ -30,7 +30,7 @@ jobs:
     - name: Vuepress
       run: |
         yarn
-        yarn run build
+        yarn run b
         cp README.md docs/.vuepress/dist
         cd docs/.vuepress/dist
         git config --global user.name 'pxxyyz-dev'
