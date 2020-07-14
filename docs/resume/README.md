@@ -116,7 +116,6 @@ email: a(dot)einstein(at)ias(dot)edu
 .profile
   display inline-flex !important
   align-items center !important
-  padding-top unset !important
 .profile .info
   padding-left 0.5rem !important
 .theme-container.home-page .page
