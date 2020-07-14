@@ -8,7 +8,7 @@ profile: /profile.png
 socials:
   - title: github
     icon: "/icons/github.svg"
-    link: https://github.com/mtobeiyf
+    link: https://github.com/pxxyyz-dev
   - title: linkedin
     icon: "/icons/linkedin-mono.svg"
     link: https://www.linkedin.com

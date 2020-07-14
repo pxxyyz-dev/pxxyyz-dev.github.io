@@ -16,12 +16,13 @@ module.exports = {
     // repoLabel: 'GitHub',
     nav: [
       { 
-        text: "Home", items: [
+        text: "profile", items: [
           { text: "Resume", link: "/resume/" },
           { text: "About", link: "/about/" },
           { text: "Projects", link: "/projects/" },
         ],
       },
+      { text: "Home", link: "/" },
       { text: "Guide", link: "/guide/" },
       { text: "Post", link: "/posts/" },
       { 
