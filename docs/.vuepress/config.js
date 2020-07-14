@@ -16,7 +16,7 @@ module.exports = {
     // repoLabel: 'GitHub',
     nav: [
       { 
-        text: "profile", items: [
+        text: "Profile", items: [
           { text: "Resume", link: "/resume/" },
           { text: "About", link: "/about/" },
           { text: "Projects", link: "/projects/" },
