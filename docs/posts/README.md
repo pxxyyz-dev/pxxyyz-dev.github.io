@@ -1,6 +1,4 @@
 ---
-title: Read Me
+title: Hello World
 ---
-
-## post
-这是post的readme。
+## Hello World

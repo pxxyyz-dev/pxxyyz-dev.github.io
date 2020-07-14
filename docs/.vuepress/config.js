@@ -17,23 +17,17 @@ module.exports = {
     nav: [
       { 
         text: "Profile", items: [
-          { text: "Resume", link: "/resume/" },
-          { text: "About", link: "/about/" },
-          { text: "Projects", link: "/projects/" },
+          { text: "Resume", link: "/profile/resume/" },
+          { text: "About", link: "/profile/about/" },
+          { text: "Projects", link: "/profile/projects/" },
         ],
       },
       { text: "Guide", link: "/guide/" },
-      { text: "Post", link: "/posts/" },
-      { 
-        text: "Plugins", items: [
-          { text: "mathjax", link: "/vuepress-plugins/mathjax" },
-          { text: "medium-zoom", link: "/vuepress-plugins/medium-zoom" },
-        ],
-      },
+      { text: "Post", link: "/posts/" }
     ],
     sidebar: {
-      '/guide/': getGuideSidebar('指南', '深入'),
-      '/posts/': getPostSidebar('展示'),
+      '/guide/': getGuideSidebar('样例','指南', '深入','插件'),
+      '/posts/': getPostSidebar('算法'),
     },
     editLinkText: '在 GitHub 上编辑此页',
     lastUpdated: '上次更新时间',
@@ -81,33 +75,50 @@ module.exports = {
   ],
 };
 
-function getGuideSidebar (groupA, groupB) {
+function getGuideSidebar (groupA, groupB, groupC, groupD) {
   return [
     {
       title: groupA,
       collapsable: false,
       children: [
-        '',
-        'getting-started',
-        'directory-structure',
-        'basic-config',
-        'assets',
-        'markdown',
-        'using-vue',
-        'i18n',
-        'deploy'
+        '/guide/demo/',
+        '/guide/demo/markdown-demo',
+        '/guide/demo/ant-design-components',
+        '/guide/demo/advanced',
+        '/guide/demo/customize'
       ]
     },
     {
-      title: groupB,
+    title: groupB,
       collapsable: false,
       children: [
-        'advanced',
-        'customize',
-        'frontmatter',
-        'permalinks',
-        'markdown-slot',
-        'global-computed'
+        '/guide/guide/',
+        '/guide/guide/getting-started',
+        '/guide/guide/directory-structure',
+        '/guide/guide/basic-config',
+        '/guide/guide/assets',
+        '/guide/guide/markdown',
+        '/guide/guide/using-vue',
+        '/guide/guide/i18n',
+        '/guide/guide/deploy'
+      ]
+    },
+    {
+      title: groupC,
+      collapsable: false,
+      children: [
+        '/guide/advanced/frontmatter',
+        '/guide/advanced/permalinks',
+        '/guide/advanced/markdown-slot',
+        '/guide/advanced/global-computed'
+      ]
+    },
+    {
+      title: groupD,
+      collapsable: false,
+      children: [
+        '/guide/vuepress-plugins/mathjax',
+        '/guide/vuepress-plugins/medium-zoom'
       ]
     }
   ]
@@ -119,9 +130,10 @@ function getPostSidebar (groupA) {
       title: groupA,
       collapsable: false,
       children: [
-        '',
-        'hello-world',
-        'ant-design-components'
+        'SSA-L1',
+        'PCA-L1',
+        'PCA-Lp',
+        'Fock-Bargmann-Hartogs'
       ]
     }
   ]
