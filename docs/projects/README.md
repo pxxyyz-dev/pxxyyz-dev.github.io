@@ -122,5 +122,5 @@ pageClass: projects-page
   background-color #fafbfc
 .md-card .card-image
 .md-card .card-image img
-  width 300px !important
+  width 322px !important
 </style>

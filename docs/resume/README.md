@@ -113,6 +113,12 @@ email: a(dot)einstein(at)ias(dot)edu
 <!-- Custom style for this page -->
 
 <style lang="stylus">
+.profile
+  display inline-flex !important
+  align-items center !important
+  padding-top unset !important
+.profile .info
+  padding-left 0.5rem !important
 .theme-container.home-page .page
   font-size 14px
   font-family "lucida grande", "lucida sans unicode", lucida, "Helvetica Neue", Helvetica, Arial, sans-serif;
