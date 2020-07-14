@@ -4,6 +4,9 @@
     "b": "vuepress build docs",
     "d": "bash deploy.sh"
   },
+  "devDependencies": {
+    "core-js": "2.6.11"
+  },
   "name": "pxxyyz-dev",
   "version": "1.0.0",
   "description": "pxxyyz-dev vuepress",
@@ -11,7 +14,7 @@
   "author": "pxxyyz <pxxyyz@gmail.com>",
   "repository": "https://github.com/pxxyyz-dev/pxxyyz-dev.github.io.git",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.5.2",
     "@vuepress/plugin-medium-zoom": "^1.5.2",
     "markdown-it": "^11.0.0",
@@ -21,6 +24,7 @@
     "path": "^0.12.7",
     "vuepress": "^1.5.2",
     "vuepress-plugin-mathjax": "^1.2.8",
-    "vuepress-plugin-smooth-scroll": "^0.0.9"
+    "vuepress-plugin-smooth-scroll": "^0.0.9",
+    "vuepress-theme-antdocs": "^1.1.1"
   }
 }

@@ -49,6 +49,7 @@ export default {
   display flex
   flex-direction row
   align-items stretch
+  padding-top 70px
   .image
     max-width 120px
     img

@@ -5,19 +5,25 @@ const path = require('path');
 module.exports = {
   base: '/',
   title: 'pxxyyz',
+  theme: 'antdocs',
   description: '秃头怪的自娱自乐',
   port: 4000,
   lang: 'zh-CN',
   themeConfig: {
-   // 你的GitHub仓库，请正确填写
+    // 你的GitHub仓库，请正确填写
     repo: 'https://github.com/pxxyyz-dev/pxxyyz-dev.github.io',
     // 自定义仓库链接文字。
-    repoLabel: 'GitHub',
+    // repoLabel: 'GitHub',
     nav: [
-      { text: "Resume", link: "/resume/" },
-      { text: "About", link: "/about/" },
-      { text: "Projects", link: "/projects/" },
+      { 
+        text: "Home", items: [
+          { text: "Resume", link: "/resume/" },
+          { text: "About", link: "/about/" },
+          { text: "Projects", link: "/projects/" },
+        ],
+      },
       { text: "Guide", link: "/guide/" },
+      { text: "Post", link: "/posts/" },
       { 
         text: "Plugins", items: [
           { text: "mathjax", link: "/vuepress-plugins/mathjax" },
@@ -27,6 +33,7 @@ module.exports = {
     ],
     sidebar: {
       '/guide/': getGuideSidebar('指南', '深入'),
+      '/posts/': getPostSidebar('展示'),
     },
     editLinkText: '在 GitHub 上编辑此页',
     lastUpdated: '上次更新时间',
@@ -40,8 +47,16 @@ module.exports = {
   ],
   plugins: [
     ['@vuepress/back-to-top'],
-    ['@vuepress/medium-zoom'],
     ['vuepress-plugin-smooth-scroll'],
+    [
+      '@vuepress/medium-zoom',
+      {
+        selector: '.theme-antdocs-content :not(a) > img',
+        options: {
+          margin: 16
+        }
+      }
+    ],
     [
       '@vuepress/last-updated',
       {
@@ -93,6 +108,20 @@ function getGuideSidebar (groupA, groupB) {
         'permalinks',
         'markdown-slot',
         'global-computed'
+      ]
+    }
+  ]
+}
+
+function getPostSidebar (groupA) {
+  return [
+    {
+      title: groupA,
+      collapsable: false,
+      children: [
+        '',
+        'hello-world',
+        'ant-design-components'
       ]
     }
   ]

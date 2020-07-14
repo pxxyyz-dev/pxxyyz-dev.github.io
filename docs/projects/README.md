@@ -76,7 +76,7 @@ pageClass: projects-page
 
 </ProjectCard>
 
-<ProjectCard image="/projects/Photoelectric_effect.svg">
+<ProjectCard image="/projects/QuantumPhaseTransition.svg">
 
 **玻色-爱因斯坦统计**
 
