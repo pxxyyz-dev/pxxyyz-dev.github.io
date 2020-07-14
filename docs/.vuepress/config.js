@@ -130,9 +130,6 @@ function getPostSidebar (groupA) {
       title: groupA,
       collapsable: false,
       children: [
-        'SSA-L1',
-        'PCA-L1',
-        'PCA-Lp',
         'Fock-Bargmann-Hartogs'
       ]
     }
