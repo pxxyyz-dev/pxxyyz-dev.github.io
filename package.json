@@ -6,8 +6,7 @@
   },
   "devDependencies": {
     "core-js": "2.6.11",
-    "markdown-it-footnote": "^3.0.2",
-    "markdown-it-katex": "^2.0.3"
+    "markdown-it-footnote": "^3.0.2"
   },
   "name": "pxxyyz-dev",
   "version": "1.0.0",
@@ -17,6 +16,7 @@
   "repository": "https://github.com/pxxyyz-dev/pxxyyz-dev.github.io.git",
   "license": "MIT",
   "dependencies": {
+    "@iktakahiro/markdown-it-katex": "^4.0.0",
     "@vuepress/plugin-back-to-top": "^1.5.2",
     "@vuepress/plugin-medium-zoom": "^1.5.2",
     "markdown-it": "^11.0.0",

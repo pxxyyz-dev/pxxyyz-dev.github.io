@@ -40,17 +40,21 @@ module.exports = {
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', {
       rel: 'stylesheet',
-      href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css'
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css'
+      // https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css
+      // https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css
     }],
     ['link', {
       rel: "stylesheet",
-      href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css"
+      href: "https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.css"
+      // https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.css
+      // https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css
     }]
   ],
   markdown: {
     extendMarkdown: md => {
       md.set({ html: true })
-      md.use(require('markdown-it-katex'))
+      md.use(require('@iktakahiro/markdown-it-katex'))
       md.use(require('markdown-it-footnote'))
     }
   },
