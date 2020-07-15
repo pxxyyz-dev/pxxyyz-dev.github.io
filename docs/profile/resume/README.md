@@ -3,7 +3,7 @@ pageClass: home-page
 # some data for the components
 
 name: Albert Einstein
-profile: /profile.png
+profile: /profile/profile.png
 
 socials:
   - title: github

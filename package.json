@@ -5,7 +5,9 @@
     "d": "bash deploy.sh"
   },
   "devDependencies": {
-    "core-js": "2.6.11"
+    "core-js": "2.6.11",
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-katex": "^2.0.3"
   },
   "name": "pxxyyz-dev",
   "version": "1.0.0",
@@ -23,7 +25,6 @@
     "moment-timezone": "^0.5.31",
     "path": "^0.12.7",
     "vuepress": "^1.5.2",
-    "vuepress-plugin-mathjax": "^1.2.8",
     "vuepress-plugin-smooth-scroll": "^0.0.9",
     "vuepress-theme-antdocs": "^1.1.1"
   }

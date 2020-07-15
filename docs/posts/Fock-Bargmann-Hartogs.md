@@ -6,7 +6,8 @@ tags:
   - Fock-Bargmann-Hartogs域
   - Bergman算子
   - Toeplitz算子
-mathjax: true
+mathjax:
+  presets: \def\lr#1#2#3{\left#1#2\right#3}
 urlname: Fock-Bargmann-Hartogs
 date: 2020-05-03 21:32:45
 updated: 2020-05-03 21:32:45
@@ -86,7 +87,7 @@ $$D_{n_{0}}^{n, p}(\mu)=\left\{\left(z, w_{(1)}, \ldots, w_{(\ell)}\right) \in \
 >
 > $$\min \left\{n_{1+\epsilon}, n_{2}, \ldots, n_{\ell}, n_{1}+\cdots+n_{\ell}\right\} \geq 2$$
 > 
-> $$\min \left\{m_{1+\delta}, m_{2}, \cdots, m_{\ell}, m_{1}+\dots+m_{\ell}\right\} \geq 2$$
+> $$\min \left\{m_{1+\delta}, m_{2}, \ldots, m_{\ell}, m_{1}+\cdots+m_{\ell}\right\} \geq 2$$
 >
 > Then any proper holomorphic mapping between $D_{n_{0}}^{n, p}(\mu)$ and $D_{m_{0}}^{m, q}(\nu)$ must be a biholomorphism; any proper holomorphic self-mapping of $D_{n_{0}}^{n, p}(\mu)$ must be an automorphism.
 > 
@@ -110,7 +111,7 @@ $$D_{n_{0}}^{n, p}(\mu)=\left\{\left(z, w_{(1)}, \ldots, w_{(\ell)}\right) \in \
 
 - 广义Hartogs三角域$\mathcal{H}_{k}^{n+1}:=\left\{(z, w) \in \mathbb{C}^{n} \times \mathbb{C}:\|z\|<|w|^{k}<1\right\}$
 
-- 广义Hartogs三角域$\mathcal{H}_{\left\{k_{j}, \phi_{j}, b\right\}}^{n}=\left\{z \in \mathbb{C}^{n}: \max _{1 \leq j \leq l}\left\|\phi_{j}\left(\widetilde{z}_{j}\right)\right\|<\left|z_{k+1}\right|^{b}<\cdots<\left|z_{n}\right|^{b}<1\right\}$
+- 广义Hartogs三角域$\mathcal{H}_{\left\{k_{j}, \phi_{j}, b\right\}}^{n}=\left\{z \in \mathbb{C}^{n}: \max _{1 \leq j \leq l}\left\|\phi_{j}\left(\hat{z}_{j}\right)\right\|<\left|z_{k+1}\right|^{b}<\cdots<\left|z_{n}\right|^{b}<1\right\}$
 
 
 文献[5]给出$\mathcal{H}_{\left\{k_{j}, \phi_{j}, b\right\}}^{n}$上Toeplitz算子的有界性.

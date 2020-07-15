@@ -8,7 +8,7 @@ pageClass: projects-page
 
 ## 领域
 
-<ProjectCard image="/projects/World_line.svg">
+<ProjectCard image="/profile/World_line.svg">
 
   **相对论和爱因斯坦质能方程**
 
@@ -24,7 +24,7 @@ pageClass: projects-page
 
 </ProjectCard>
 
-<ProjectCard image="/projects/Photoelectric_effect.svg">
+<ProjectCard image="/profile/Photoelectric_effect.svg">
 
 **光子与能量量子**
 
@@ -36,7 +36,7 @@ pageClass: projects-page
 
 </ProjectCard>
 
-<ProjectCard image="/projects/DebyeVSEinstein.jpg">
+<ProjectCard image="/profile/DebyeVSEinstein.jpg">
 
 **量子化原子振动**
 
@@ -48,7 +48,7 @@ pageClass: projects-page
 
 </ProjectCard>
 
-<ProjectCard image="/projects/Dualite.jpg">
+<ProjectCard image="/profile/Dualite.jpg">
 
 **波粒二象性**
 
@@ -60,7 +60,7 @@ pageClass: projects-page
 
 </ProjectCard>
 
-<ProjectCard image="/projects/Black_Hole_Milkyway.jpg">
+<ProjectCard image="/profile/Black_Hole_Milkyway.jpg">
 
 **广义相对论**
 
@@ -76,7 +76,7 @@ pageClass: projects-page
 
 </ProjectCard>
 
-<ProjectCard image="/projects/QuantumPhaseTransition.svg">
+<ProjectCard image="/profile/QuantumPhaseTransition.svg">
 
 **玻色-爱因斯坦统计**
 
@@ -88,7 +88,7 @@ pageClass: projects-page
 
 </ProjectCard>
 
-![](/projects/Solvay_conference_1927.jpg)
+![](/profile/Solvay_conference_1927.jpg)
 
 ## 发表
 

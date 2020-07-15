@@ -2,7 +2,7 @@
 pageClass: about-page
 editLink: false
 description: 'The biography and information about me.'
-avatar: /Einstein_tongue.jpg
+avatar: /profile/Einstein_tongue.jpg
 head: 'Albert Einstein'
 info: 'Father of modern physics'
 interests: 'Interests: philosophy and music'
