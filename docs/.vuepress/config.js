@@ -23,14 +23,14 @@ module.exports = {
         ],
       },
       { text: "Guide", link: "/guide/" },
-      { text: "Post", link: "/posts/" }
+      { text: "Math", link: "/posts/" }
     ],
     sidebar: {
       '/guide/': getGuideSidebar('样例','指南', '深入','插件'),
-      '/posts/': getPostSidebar('算法'),
+      '/posts/': getPostSidebar('应用','基础'),
     },
     editLinkText: '在 GitHub 上编辑此页',
-    lastUpdated: '上次更新时间',
+    lastUpdated: '上次更新',
     docsRepo: 'pxxyyz-dev/pxxyyz-dev.github.io',
     docsDir: 'docs',
     docsBranch: 'source',
@@ -129,18 +129,24 @@ function getGuideSidebar (groupA, groupB, groupC, groupD) {
   ]
 }
 
-function getPostSidebar (groupA) {
+function getPostSidebar (groupA, groupB) {
   return [
     {
       title: groupA,
       collapsable: false,
       children: [
-        'Fock-Bargmann-Hartogs',
         'SSA-L1',
         'PCA-L1',
         'PCA-Lp',
         'manifold-learning',
         'manifold-graph'
+      ]
+    },
+    {
+    title: groupB,
+      collapsable: false,
+      children: [
+        'Fock-Bargmann-Hartogs'
       ]
     }
   ]
