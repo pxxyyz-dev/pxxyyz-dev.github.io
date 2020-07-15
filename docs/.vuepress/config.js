@@ -40,7 +40,7 @@ module.exports = {
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', {
       rel: 'stylesheet',
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js'
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css'
     }],
     ['link', {
       rel: "stylesheet",
