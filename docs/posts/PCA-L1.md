@@ -74,7 +74,7 @@ $$\left\| X_i \right\|_{\mathrm{TV}}^{\mathrm{ani}} = \left\| \nabla_x X_i \righ
 $$W^*=\arg\max_W\|W^TXX^TW\|_2 = \arg\max_W\|W^TX\|_2 \quad \text{s.t.} W^TW = I$$
 注意，上式可解释为投影点$W^TX$的方差最大化，完成从协方差矩阵（二阶矩）到方差（一阶矩）的转化。此外，L2-PCA的对偶优化问题得到一个具有旋转不变性的子空间，但是对异常值不鲁棒。从下图可以看出，少量异常点严重影响投影的方向。
 
-![](PCA的L1和L2\L1-PCA.png)
+![](PCA的L1和L2/L1-PCA.png)
 
 图片来源[^3]
 
@@ -116,13 +116,13 @@ $$\begin{aligned}
 
 - 回到第三步，投影向量是数据点$x_i$的线性组合，即$w(t)\propto p_i(t-1)x_i$，因此对旋转具有不变性。
 
-![](PCA的L1和L2\alg-1.png)
+![](PCA的L1和L2/alg-1.png)
 
 值得注意的是，`L1-PCA`和`L2-PCA`算法所得到得子空间非常接近。
 
 上面仅考虑了当$m=1$的特例，对于$m>1$的情况可以通过贪婪寻找算法。
 
-![](PCA的L1和L2\alg-5.png)
+![](PCA的L1和L2/alg-5.png)
 
 投影向量的正交性由以下三点保证：
 
@@ -162,7 +162,7 @@ L1-PCA模型可通过以下两步法来解决
 
 其中第一步可通过L1-BF算法解决
 
-![](PCA的L1和L2\alg-4.png)
+![](PCA的L1和L2/alg-4.png)
 
 ## 基于$\ell_1$范数的复值主成分分析
 
@@ -253,7 +253,7 @@ $\mathbf{sgn}(X^H Xb^*)$与该式的差异在于$\omega(\cdot)$的取值：前�
 
 $$B^{(i)}= \mathbf{sgn}(X^H \mathbf{unt}(X B^{(i-1)}))$$
 
-![](PCA的L1和L2\alg-2.png)
+![](PCA的L1和L2/alg-2.png)
 
 收敛性
 $$\begin{aligned}
@@ -269,7 +269,7 @@ $$\begin{aligned}
 
 $$b^{(i)} = \mathbf{sgn}((X^H X- \mathbf{diag}(\|x_1\|_2^2,\cdots,\|x_N\|_2^2)) b^{(i-1)})$$
 
-![](PCA的L1和L2\alg-3.png)
+![](PCA的L1和L2/alg-3.png)
 
 收敛性
 $$\begin{aligned}

@@ -58,7 +58,7 @@ $$\nabla_{w} = \sum_{i=1}^{N} \text{sgn}\left(w^T x_i\right)\left|w^T x_i\right|
 - step 2 避免当$p \leq 1$时的奇异情况
 - step 5 保证规范化$\|w\|_2 = 1$
 
-![](PCA的Lp\alg-1.png)
+![](PCA的Lp/alg-1.png)
 
 基于梯度下降的PCA-Lp算法
 
@@ -85,7 +85,7 @@ $$\nabla_{w}^{\perp} = \sum_{i=1}^{N} c_i v_i = \sum_{i=1}^{N} f_i$$
     - $p<1$时，$|f_i| = (\frac{|v_i|}{a_i})^{1-p}|v_i|^p$，$a_i$对力产生负影响，从而降低异常值的干扰
     - $p \to 0$时，$|f_i| = \frac{|v_i|}{a_i}$
 
-![](PCA的Lp\fig-1.png)
+![](PCA的Lp/fig-1.png)
 
 ### 传统PCA联系
 
@@ -109,7 +109,7 @@ $$w \leftarrow \frac{\nabla_w}{\|\nabla_w\|_2}$$
 $$F_p(w^{k+1}) \geq F_p(w^{k}) + \nabla_w^T (w^{k+1} - w^{k}) \geq F_p(w^{k})$$
 第二个不等号是因为$\|w^{k+1}\|_2 = \|w^{k}\|_2 = 1$且$w^{k+1}$平行于$\nabla_w$，$\nabla_w^T w^{k+1} = 1$。
 
-![](PCA的Lp\alg-2.png)
+![](PCA的Lp/alg-2.png)
 
 基于Lagrangian乘子法的PCA-Lp算法
 
@@ -117,7 +117,7 @@ $$F_p(w^{k+1}) \geq F_p(w^{k}) + \nabla_w^T (w^{k+1} - w^{k}) \geq F_p(w^{k})$$
 
 ### 贪婪算法（近似求解）
 
-![](PCA的Lp\alg-3.png)
+![](PCA的Lp/alg-3.png)
 
 - 往往求得局部最优解，而不是全局最优解
 
@@ -138,7 +138,7 @@ tr(Q^T \nabla_W) &= tr(Q^T U\Lambda V^T) = tr(\Lambda V^T Q^T U) \\
 \end{aligned}$$
 取等号时当且仅当$z_{ii} = 1$，此时$Z = [I_m | 0]$，最优解
 $$W^* = U Z^T V^T = U [I_m | 0]^T V^T$$
-![](PCA的Lp\alg-4.png)
+![](PCA的Lp/alg-4.png)
 
 ## 参考文献
 
