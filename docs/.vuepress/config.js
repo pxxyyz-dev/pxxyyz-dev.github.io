@@ -45,7 +45,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#42b983' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'apple-touch-icon', href: '/icon_pxxyyz_152.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
     ['link', { rel: 'mask-icon', href: '/icon_pxxyyz.svg', color: '#42b983' }],
     ['meta', { name: 'msapplication-TileImage', content: '/icon_pxxyyz_144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],

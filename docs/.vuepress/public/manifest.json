@@ -3,8 +3,28 @@
   "short_name": "pxxyyz",
   "icons": [
     {
+      "src": "/icons/icon_pxxyyz_72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/apple-icon_pxxyyz_144-icon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
       "src": "/icons/icon_pxxyyz_192.png",
       "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon_pxxyyz_256.png",
+      "sizes": "256x256",
       "type": "image/png"
     },
     {
@@ -16,5 +36,13 @@
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#fff",
-  "theme_color": "#3eaf7c"
+  "theme_color": "#3eaf7c",
+  "related_applications": [
+  {
+    "platform": "web"
+  },
+  {
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
+  }]
 }
