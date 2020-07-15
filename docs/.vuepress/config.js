@@ -38,6 +38,17 @@ module.exports = {
   },
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+    ['meta', { name: 'author', content: 'pxxyyz' }],
+    ['meta', { name: 'keywords', content: 'pxxyyz,blog' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['meta', { name: 'theme-color', content: '#42b983' }],
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', { rel: 'apple-touch-icon', href: '/icon_pxxyyz_152.png' }],
+    ['link', { rel: 'mask-icon', href: '/icon_pxxyyz.svg', color: '#42b983' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/icon_pxxyyz_144.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
     ['link', {
       rel: 'stylesheet',
       href: 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css'
@@ -57,6 +68,10 @@ module.exports = {
   plugins: [
     ['@vuepress/back-to-top'],
     ['vuepress-plugin-smooth-scroll'],
+    ['@vuepress/pwa', {
+      serviceWorker: true,
+      updatePopup: true
+    }],
     [
       '@vuepress/medium-zoom',
       {
