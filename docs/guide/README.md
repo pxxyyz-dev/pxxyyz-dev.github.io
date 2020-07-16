@@ -35,7 +35,7 @@ title: Hello World
 - [@iktakahiro/markdown-it-katex](https://github.com/iktakahiro/markdown-it-katex)
 - [markdown-it-footnote](https://github.com/markdown-it/markdown-it-footnote)
 
-# Todo List<i class="iconfont  icon-vue"></i>
+# Todo List
 
 ## css
 
