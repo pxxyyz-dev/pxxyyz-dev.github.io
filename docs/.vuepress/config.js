@@ -49,6 +49,13 @@ module.exports = {
     ['link', { rel: 'mask-icon', href: '/icon_pxxyyz.svg', color: '#42b983' }],
     ['meta', { name: 'msapplication-TileImage', content: '/icon_pxxyyz_144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+    ['script', {
+      src: 'https://at.alicdn.com/t/font_1806861_o87e98icohb.js'
+    }],
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://at.alicdn.com/t/font_1806861_o87e98icohb.css'
+    }],
     ['link', {
       rel: 'stylesheet',
       href: 'https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css'
