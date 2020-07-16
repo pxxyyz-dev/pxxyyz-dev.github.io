@@ -15,7 +15,7 @@
             {{data.info}}
           </span>
         </div>
-        <div class="description">
+        <div class="card-description">
           <slot></slot>
         </div>
       </div>
@@ -82,7 +82,7 @@ export default {
       border-radius 500rem
 
   .card
-    max-width: 600px
+    max-width: 980px
     width 100%
     position relative
     top -75px
@@ -102,7 +102,7 @@ export default {
         padding-top 0.5rem
         font-size 1em
         color rgba(0,0,0,.4)
-      .description
+      .card-description
         text-align justify
         p
           padding 0.8em 0.5em 0

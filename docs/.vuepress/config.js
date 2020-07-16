@@ -6,7 +6,7 @@ module.exports = {
   base: '/',
   title: 'pxxyyz',
   theme: 'antdocs',
-  description: '秃头怪的自娱自乐',
+  description: '卤蛋的自我修养',
   port: 4000,
   lang: 'zh-CN',
   themeConfig: {
