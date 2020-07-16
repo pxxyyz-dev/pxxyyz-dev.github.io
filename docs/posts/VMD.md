@@ -39,7 +39,7 @@ $$
 
 ### Hilbert变换
 
-其本质是具有平移不变性的线性算子$\cal H$，将余弦函数映射至正弦函数。从信号角度看，Hilbert变换是一种全通滤波器(all-pass filter)，可由转递函数刻画：
+其本质是具有平移不变性的线性算子$\mathcal H$，将余弦函数映射至正弦函数。从信号角度看，Hilbert变换是一种全通滤波器(all-pass filter)，可由转递函数刻画：
 $$
 \hat h (w) = -j \text{sgn} (w) = -j\frac{w}{w}
 $$
@@ -47,13 +47,13 @@ $$
 $$
 h(t) = \frac{1}{\pi t}
 $$
-与$h(w)$做卷积是不可积的，信号$f(t)$的Hilbert变换$\cal H f(t)$ 通过卷积积分的柯西主值(Cauchy principal value )得到
+与$h(w)$做卷积是不可积的，信号$f(t)$的Hilbert变换$\mathcal H f(t)$ 通过卷积积分的柯西主值(Cauchy principal value )得到
 $$
-{\cal H} f(t) = \frac{1}{\pi} \text{p.v.} \int_{\mathbb R} \frac{f(v)}{t-v} dv
+{\mathcal H} f(t) = \frac{1}{\pi} \text{p.v.} \int_{\mathbb R} \frac{f(v)}{t-v} dv
 $$
 Hilbert变换的主要用途是将实信号转化为解析信号。设$f(t)$是一个纯实信号，复值解析信号定义如下：
 $$
-f_A(t) = f(t) +j {\cal H} f(t) = A(t) e^{j \phi(t)}
+f_A(t) = f(t) +j {\mathcal H} f(t) = A(t) e^{j \phi(t)}
 $$
 其中$e^{j \phi(t)}$描述复信号在时间上旋转的相量，$\phi(t)$表示相位，振幅$A(t)$描述了实包络。
 
@@ -194,7 +194,7 @@ a_{C}(t) \cos \left(\phi_{C}(t)\right)
 $$
 对该向量信号$\mathbf{u}(t)$进行Hilbert变换，即对各个分量进行Hilbert变换，产生解析信号向量
 $$
-\mathbf{u}_A(t)= \mathbf{u}(t) + j{\cal H} \mathbf{u}(t)  =\left[\begin{array}{c}
+\mathbf{u}_A(t)= \mathbf{u}(t) + j{\mathcal H} \mathbf{u}(t)  =\left[\begin{array}{c}
 u_{1,A}(t) \\
 u_{2,A}(t) \\
 \vdots \\
