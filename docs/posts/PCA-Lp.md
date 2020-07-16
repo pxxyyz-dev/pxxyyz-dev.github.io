@@ -12,6 +12,8 @@ urlname: PCA-Lp
 date: 2020-06-26 17:00:00
 ---
 
+## 写在前面
+
 介绍最近看的基于$\ell_p$范数主成分分析(Principal Component Analysis, PCA)的文章[^1]
 
 ## 基于$\ell_p$范数的主成分分析

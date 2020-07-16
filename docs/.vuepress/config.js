@@ -153,6 +153,8 @@ function getPostSidebar (groupA, groupB) {
         'SSA-L1',
         'PCA-L1',
         'PCA-Lp',
+        'VMD',
+        'VNCMD',
         'manifold-learning',
         'manifold-graph'
       ]
