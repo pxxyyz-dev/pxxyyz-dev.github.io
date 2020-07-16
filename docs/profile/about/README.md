@@ -17,11 +17,11 @@ socials:
   link: 'mailto:a(dot)einstein(at)ias(dot)edu'
 actions:
 - text: Projects
-  link: /projects/
+  link: /profile/projects/
 - text: Blog
   link: https://pxxyyz.com
 - text: CV
-  link: /article/
+  link: https://en.wikipedia.org/wiki/Albert_Einstein
 footer: Powered by VuePress
 ---
 

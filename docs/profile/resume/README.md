@@ -96,7 +96,7 @@ email: a(dot)einstein(at)ias(dot)edu
 
 </ProjectCard>
 
-[→ Full list](/projects/)
+<a-Button type="link" onclick="window.location.href='/profile/projects/';" block><div style="font-size:24px">Full list <a-icon type="pushpin" theme="outlined" /></div></a-Button> 
 
 ## Awards & Honors
 
