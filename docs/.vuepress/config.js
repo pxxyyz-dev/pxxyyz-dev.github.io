@@ -37,17 +37,17 @@ module.exports = {
     editLinks: true,
   },
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/logo.png' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
     ['meta', { name: 'author', content: 'pxxyyz' }],
     ['meta', { name: 'keywords', content: 'pxxyyz,blog' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#42b983' }],
+    ['meta', { name: 'theme-color', content: '#2196f3' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
-    ['link', { rel: 'mask-icon', href: '/icon_pxxyyz.svg', color: '#42b983' }],
-    ['meta', { name: 'msapplication-TileImage', content: '/icon_pxxyyz_144.png' }],
+    ['link', { rel: 'apple-touch-icon', href: '/images/icons/icon-152x152.png' }],
+    ['link', { rel: 'mask-icon', href: '/icon_pxxyyz.svg', color: '#3eaf7c' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/images/icons/icon-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
     ['script', {
       src: 'https://at.alicdn.com/t/font_1806861_o87e98icohb.js'

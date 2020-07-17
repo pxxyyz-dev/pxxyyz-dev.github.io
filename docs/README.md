@@ -6,7 +6,7 @@ tagline: Bald will shine everywhere
 actionText: 我的博客
 actionLink: https://pxxyyz.com/
 ---
-<Footer/>
+<HomeFooter/>
 
 <style lang="stylus">
 .description

@@ -72,7 +72,7 @@ email: a(dot)einstein(at)ias(dot)edu
 - Guest Lecturer at King’s College in London
 - Key participant in a 6-month excursion and speaking tour to Singapore, Ceylon, Japan, and Palestine
 
-## Work <a-icon type="bulb" theme="twoTone" /> Annus mirabilis papers
+## Annus Mirabilis <a-icon type="bulb" theme="twoTone" /> 
 
 <ProjectCard>
 
