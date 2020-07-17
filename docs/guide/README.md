@@ -23,6 +23,7 @@ title: Hello World
 - [springleo's blog](https://lq782655835.github.io/blogs/)
 - [前端技术栈月刊](https://xiaoluoboding.github.io/monthly/)
 - [Xerrors](https://www.xerrors.fun/)
+- [阶进端前和口禾](http://file.jing999.cn/)
 
 #  vuepress-plugin <span class = "imgsvg"> <embed src="/icons/extension.svg" type="image/svg+xml" /></span>
 
