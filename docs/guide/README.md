@@ -24,7 +24,7 @@ title: Hello World
 - [前端技术栈月刊](https://xiaoluoboding.github.io/monthly/)
 - [Xerrors](https://www.xerrors.fun/)
 
-#  vuepress-plugin
+#  vuepress-plugin <span class = "imgsvg"> <embed src="/icons/extension.svg" type="image/svg+xml" /></span>
 
 - [vuepress-community](https://github.com/vuepress/vuepress-community)
   - @vuepress/plugin-back-to-top
@@ -76,6 +76,11 @@ title: Hello World
 </div>
 
 <style lang="stylus">
+.imgsvg   img 
+.imgsvg   embed 
+.imgsvg   object
+  width 30px
+  cursor pointer
 .icon
   width 1em
   height 1em

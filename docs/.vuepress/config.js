@@ -42,7 +42,7 @@ module.exports = {
     ['meta', { name: 'author', content: 'pxxyyz' }],
     ['meta', { name: 'keywords', content: 'pxxyyz,blog' }],
     ['link', { rel: 'manifest', href: '/manifest.json' }],
-    ['meta', { name: 'theme-color', content: '#2196f3' }],
+    ['meta', { name: 'theme-color', content: '#42b983' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: 'apple-touch-icon', href: '/images/icons/icon-152x152.png' }],
