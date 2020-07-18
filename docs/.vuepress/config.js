@@ -160,6 +160,7 @@ function getPostSidebar (groupA, groupB) {
         'SSA-L1',
         'PCA-L1',
         'PCA-Lp',
+        'functional-ssa',
         'VMD',
         'VNCMD',
         'manifold-learning',
