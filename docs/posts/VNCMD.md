@@ -348,7 +348,89 @@ $$
 ![](变分非线性线性调频模态分解/ACMP2.png)
 
 
+## 多元版本
+
+补充一个多元变分非线性线性调频模态分解算法(Multivariate nonlinear chirp mode decomposition)[^3]。
+
+### 多元非线性线性调频模态
+
+类似VMD到MVMD的转变，首先给出多元模态的定义
+$$
+\mathbf{g}(t)=\left[\begin{array}{c}
+g_{1}(t) \\
+g_{2}(t) \\
+\vdots \\
+g_{C}(t)
+\end{array}\right]=\left[\begin{array}{c}
+a_{1}(t) \cos(2\pi \int_0^t f_1(s)ds + \phi_{1})\\
+a_{2}(t) \cos(2\pi \int_0^t f_2(s)ds + \phi_{2})\\
+\vdots \\
+a_{M}(t) \cos(2\pi \int_0^t f_M(s)ds + \phi_{M})
+\end{array}\right]
+$$
+通过Hilbert变换得到的如下解析信号
+$$
+\begin{aligned}
+\mathbf g_A (t) &= \mathbf g(t) + j{\mathcal H}(\mathbf g(t)) \\
+&=\left[\begin{array}{c}
+g_{1,A}(t) \\
+g_{2,A}(t) \\
+\vdots \\
+g_{M,A}(t)
+\end{array}\right]=\left[\begin{array}{c}
+a_{1}(t) \exp(j(2\pi \int_0^t f_1(s)ds + \phi_{1}))\\
+a_{2}(t) \exp(j(2\pi \int_0^t f_2(s)ds + \phi_{2}))\\
+\vdots \\
+a_{M}(t) \exp(j(2\pi \int_0^t f_M(s)ds + \phi_{M}))
+\end{array}\right]\\
+&=\left[\begin{array}{c}
+a_{1}(t) \\
+a_{2}(t) \\
+\vdots \\
+a_{M}(t)
+\end{array}\right] \exp(j(2\pi \int_0^t f(s)ds + \phi)) 
+= \mathbf a(t)\exp(j(2\pi \int_0^t f(s)ds + \phi)) 
+\end{aligned}
+$$
+
+上式的变换是基于不同成分的模态具有共同的频率成分，这也有利于模态对准(mode-alignment)。
+
+### 目标函数
+
+- 连续形式
+
+$$
+\begin{aligned}
+&\min_{u_i(t),v_i(t),{\hat f}_i(t)} \sum_{i=1}^Q \sum_{m=1}^M \left(\|u_{i,m}^{\prime\prime} (t)\|_2^2 + \|v_{i,m}^{\prime\prime} (t)\|_2^2 \right) \\
+&\text{s.t.} \|x_m(t) - \sum_{i=1}^Q u_{i,m}(t)\cos(2\pi \int_0^t \hat f_i(s) ds) + v_{i,m}(t)\sin(2\pi \int_0^t \hat f_i(s) ds)\|_2 \leq \varepsilon_m
+\end{aligned}
+$$
+
+- 离散形式
+
+$$
+\begin{aligned}
+&\min_{\mathbf u_i, \mathbf v_i, \mathbf f_i} \sum_{i} \sum_{m} \left(\|\Omega\mathbf u_{i,m} \|_2^2 + \|\Omega\mathbf v_{i,m} \|_2^2\right)\\
+&\text{s.t.} \left\|\mathbf x_m - \sum_{i} \left(\mathbf A_i \mathbf u_{i,m} + \mathbf B_i \mathbf v_{i,m}\right)\right\|_2 \leq \varepsilon_m
+\end{aligned}
+$$
+
+使用ADMM算法迭代，与NCMD算法区别的是模态对准导致瞬时频率更新公式需要对所有模态频率进行平均
+$$
+\mathbf f_i^{k+1}(t_n) = \frac{\sum_m \mathbf f_{i,m}^{k+1}(t_n) |\mathbf a_{i,m}^{k+1}(t_n)|^2}{\sum_m |\mathbf a_{i,m}^{k+1}(t_n)|^2}
+$$
+其中$\mathbf a_{i,m}^{k+1} = \sqrt{(\mathbf u_{i,m}^{k+1})^2 + (\mathbf v_{i,m}^{k+1})^2}$
+
+### MNCMD算法流程
+
+![](变分非线性线性调频模态分解/MNCMD.png)
+
+### MNCMD vs MVMD
+
+![](变分非线性线性调频模态分解/mmc1.gif)
+
 ## 参考文献
 
 [^1]: Chen S , Dong X , Peng Z , et al. Nonlinear Chirp Mode Decomposition: A Variational Method[J]. IEEE Transactions on Signal Processing, 2017, 65(22):6024-6037.
 [^2]: Chen S, Yang Y, Peng Z, et al. Adaptive chirp mode pursuit: Algorithm and applications[J]. Mechanical Systems and Signal Processing, 2019: 566-584.
+[^3]: Qiming Chen, Lei Xie, Hongye Su, Multivariate nonlinear chirp mode decomposition[J].  Signal Processing, Volume 176, November 2020, 107667 
