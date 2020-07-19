@@ -107,6 +107,10 @@ email: a(dot)einstein(at)ias(dot)edu
 - Max Planck Medal
 - Time - Person of the Century
 
+::: tip Copyright
+[vuepress-homepage](https://github.com/mtobeiyf/vuepress-homepage) is designed by [@Fing](https://github.com/mtobeiyf).
+:::
+
 
 <!-- Custom style for this page -->
 
