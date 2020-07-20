@@ -98,7 +98,7 @@ $$
 $$
 \mathcal{S} \boldsymbol{\psi}_i=\lambda_i \boldsymbol{\psi}_i
 $$
-当$i \longrightarrow \infty$时，$\lambda_i \longrightarrow 0 $。根据谱定理，有
+当$i \longrightarrow \infty$时，$\lambda_i \longrightarrow 0$。根据谱定理，有
 $$
 \mathcal{S} =\sum_{i=1}^\infty \lambda_i \boldsymbol{\psi}_i\otimes \boldsymbol{\psi}_i
 $$
