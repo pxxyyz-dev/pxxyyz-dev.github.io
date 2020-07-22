@@ -4,5 +4,5 @@
 set -e
 
 git add -A
-git commit -m 'Update'
+git commit -m 'Deploy'
 git push -f git@github.com:pxxyyz-dev/pxxyyz-dev.github.io.git source
