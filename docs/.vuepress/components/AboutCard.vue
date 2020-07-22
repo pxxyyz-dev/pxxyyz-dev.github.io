@@ -101,7 +101,6 @@ export default {
       .info
         padding-top 0.5rem
         font-size 1em
-        color rgba(0,0,0,.4)
       .card-description
         text-align justify
         p

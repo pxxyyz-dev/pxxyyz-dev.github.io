@@ -5,7 +5,7 @@ const path = require('path');
 module.exports = {
   base: '/',
   title: 'pxxyyz',
-  theme: 'antdocs',
+  // theme: 'antdocs',
   description: '卤蛋的自我修养',
   globalUIComponents: [
     'ThemeManager'
