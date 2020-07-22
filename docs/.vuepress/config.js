@@ -7,6 +7,9 @@ module.exports = {
   title: 'pxxyyz',
   theme: 'antdocs',
   description: '卤蛋的自我修养',
+  globalUIComponents: [
+    'ThemeManager'
+  ],
   port: 4000,
   lang: 'zh-CN',
   themeConfig: {
