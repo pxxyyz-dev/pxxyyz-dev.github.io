@@ -87,8 +87,10 @@ module.exports = {
       {
         selector: '.theme-antdocs-content :not(a) > img',
         options: {
-          margin: 16
-        }
+          margin: 24,
+          background: '#BADA55',
+          scrollOffset: 0,
+        },
       }
     ],
     [
