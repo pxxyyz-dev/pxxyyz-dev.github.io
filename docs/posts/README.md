@@ -9,6 +9,7 @@ title: Algorithm
 - [基于L1范数的主成分分析](/posts/PCA-L1.md)
 - [基于Lp范数的主成分分析](/posts/PCA-Lp.md)
 - [函数型奇异谱分析](/posts/functional-ssa.md)
+- [循环奇异谱分析](/posts/circulant-ssa.md)
 - [变分模态分解](/posts/VMD.md)
 - [变分非线性线性调频模态分解](/posts/VNCMD.md)
 - [流形学习读书笔记](/posts/manifold-learning.md)
