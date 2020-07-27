@@ -96,7 +96,7 @@ $$
 \mathbf{X}_{B_{k}} &=\mathbf{X}_{k}+\mathbf{X}_{L+2-k} \\
 &=\mathbf{u}_{k}\overline{\mathbf{u}}_{k}^{\prime }\mathbf{X+u}_{L+2-k}\overline{\mathbf{u}}_{L+2-k}^{\prime }\mathbf{X} \\
 &=(\mathbf{u}_{k}\overline{\mathbf{u}}_{k}^{\prime }+\overline{\mathbf{u}}_{k}\mathbf{u}_{k}^{\prime })\mathbf{X} \\
-&=2(\Re_{\mathbf{u}_{k}}\Re_{\mathbf{u}_{k}}^{^{\prime }}+\Im_{\mathbf{u}_{k}}\Im_{\mathbf{u}_{k}}^{^{\prime }})\mathbf{X}
+&=2[\Re(\mathbf{u}_{k})\Re(\mathbf{u}_{k}^{\prime })+\Im(\mathbf{u}_{k})\Im(\mathbf{u}_{k}^{\prime })]\mathbf{X}
 \end{aligned}
 $$
 因此，$\mathbf{X}_{B_{k}}$是实的。重构步骤与传统奇异谱分析一致，不详细说明了。
