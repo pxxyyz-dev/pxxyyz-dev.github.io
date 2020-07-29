@@ -170,7 +170,8 @@ function getPostSidebar (groupA, groupB) {
         'VMD',
         'VNCMD',
         'manifold-learning',
-        'manifold-graph'
+        'manifold-graph',
+        'Sparse-PCA'
       ]
     },
     {

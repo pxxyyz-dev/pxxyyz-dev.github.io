@@ -14,6 +14,7 @@ title: Algorithm
 - [变分非线性线性调频模态分解](/posts/VNCMD.md)
 - [流形学习读书笔记](/posts/manifold-learning.md)
 - [图与流形](/posts/manifold-graph.md)
+- [稀疏主成分分析](/posts/Sparse-PCA.md)
 
 ## 多复变函数论
 
