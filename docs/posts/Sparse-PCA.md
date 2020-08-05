@@ -206,6 +206,8 @@ $$
 \end{aligned}
 $$
 
+该问题对两个变量不是凸的，但对单个变量而固定另一个变量时是凸的，因此采用交替方式迭代。
+
 - 给定$\mathrm A$更新$\mathrm B$
 
 $$
@@ -289,6 +291,37 @@ $$
 $$
 \hat \beta_j = (|\alpha_j^T \mathrm X^T \mathrm X|-\frac{\lambda_{1,j}}{2})_+ \text{sign} (\alpha_j^T \mathrm X^T \mathrm X)
 $$
+
+## 半正定规划
+
+参考**A Mathematical Introduction to Data Science**的4.4节
+
+- 传统PCA可表示为
+
+$$
+\max_x x^T \Sigma x \quad \text{s.t.} \quad \|x\|_2 = 1
+$$
+
+由于
+$$
+x^T \Sigma x = \text{tr}(\Sigma (xx^T)) = \text{tr}(\Sigma X)
+$$
+
+- 传统PCA等价表示
+
+$$
+\max_X \text{tr}(\Sigma X) \quad \text{s.t.} \quad \text{tr}( X) = 1, X \succeq 0
+$$
+
+该优化问题的最优解是第一个主成分矩阵，其秩为$1$。因此可以递归地对协方差阵$\Sigma_k = \Sigma - \sum_{i<k} X_i$使用该程序可得到前$k$个主成分。
+
+- 稀疏PCA的半正定规划形式
+
+$$
+\max_X \text{tr}(\Sigma X) - \lambda \|X\|_1 \quad \text{s.t.} \quad \text{tr}( X) = 1, X \succeq 0
+$$
+
+其中$\ell_1$范数的凸化(convexification)可以保证主成分的稀疏性，即$\#{X_{ij} \neq 0}$非常小。
 
 ## 参考文献
 
