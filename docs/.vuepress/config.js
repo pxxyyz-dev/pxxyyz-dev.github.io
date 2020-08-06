@@ -166,6 +166,7 @@ function getPostSidebar (groupA, groupB) {
         'PCA-L1',
         'PCA-Lp',
         'heteroskedastic-PCA',
+        'Kernel-PCA',
         'functional-ssa',
         'circulant-ssa',
         'VMD',
