@@ -173,7 +173,8 @@ function getPostSidebar (groupA, groupB) {
         'VNCMD',
         'manifold-learning',
         'manifold-graph',
-        'Sparse-PCA'
+        'Sparse-PCA',
+        'common-spatial-patterns'
       ]
     },
     {
