@@ -36,10 +36,10 @@ $$
 
 假设受到高斯噪声的方差不一致，从而考虑广义的尖峰协方差模型
 $$
-\begin{split}
+\begin{aligned}
 & Y = X + \varepsilon,\quad \mathbb{E} X = \mu, \quad \mathbb{E}\varepsilon = 0,\\
 & \text{Cov}(X) = \Sigma_0, \quad \text{Cov}(\varepsilon) = \text{diag}(\sigma_1^2,\ldots, \sigma_p^2)
-\end{split}
+\end{aligned}
 $$
 其中低秩部分$X$与噪声$\varepsilon = ((\varepsilon)_1,\ldots, (\varepsilon)_p)^\top$相互独立。
 
