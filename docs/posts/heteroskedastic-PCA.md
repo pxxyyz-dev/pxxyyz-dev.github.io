@@ -6,8 +6,8 @@ tags:
   - 优化
 mathjax: true
 excerpt: 介绍异方差PCA算法(Heteroskedastic PCA)
-urlname: heteroskedastic-PCA
-date: 2020-08-01 17:00:00
+urlname: Heteroskedastic-PCA
+date: 2020-08-01 18:00:00
 ---
 
 ## 写在前面
@@ -94,8 +94,8 @@ $$
   - 用$\tilde{N}^{(t)}$的对角元替换到$N^{(t)}$，更新$N^{(t+1)} = D(\tilde{N}^{(t)}) + \Delta(N^{(t)})$
     $$
     N^{(t+1)}_{ij} = \left\{\begin{array}{ll}
-      	N^{(t)}_{ij} = \hat{\Sigma}_{ij}, & i=j;\\
-      	\tilde{N}^{(t)}_{ij}, & i\neq j.
+      	N^{(t)}_{ij} = \hat{\Sigma}_{ij}, & i\neq j;\\
+      	\tilde{N}^{(t)}_{ij}, & i = j.
       	\end{array}\right.
     $$
     
@@ -107,9 +107,10 @@ $$
 
 ## 小结
 
-本文的想法很新颖，根据非对角线迭代更新对角线元素，这种做法表现出信息之间存在某种联系，那么除对角线以外是否还能恢复其他结构的元素？这个可能有待思考。
+本文的想法很新颖，根据非对角线迭代更新对角线元素，这种做法表现出信息之间存在某种联系，那么除对角线以外是否还能恢复其他结构的元素？这个有待思考。
 
 ## 参考文献
 
 [^1]:http://pages.stat.wisc.edu/~anruzhang/index.html
 [^2]: Zhang A, Cai T T, Wu Y, et al. Heteroskedastic PCA: Algorithm, Optimality, and Applications[J]. arXiv: Statistics Theory, 2018.
+
