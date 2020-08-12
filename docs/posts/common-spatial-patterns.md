@@ -254,5 +254,6 @@ CSP的黎曼距离代表欧式特征空间中欧式距离的近似。 因此，�
 [^1]: Blankertz B, Tomioka R, Lemm S, et al. Optimizing Spatial filters for Robust EEG Single-Trial Analysis[J]. IEEE Signal Processing Magazine, 2008, 25(1): 41-56.
 [^2]: Lotte F, Guan C. Regularizing Common Spatial Patterns to Improve BCI Designs: Unified Theory and New Algorithms[J]. IEEE Transactions on Biomedical Engineering, 2011, 58(2): 355-362.
 
-[^3]: LAlexandre Barachant, Stephane Bonnet, Marco Congedo, Christian Jutten. Common Spatial Pattern revisited by Riemannian Geometry. 2010 IEEE International Workshop on Multimedia Signal Processing (MMSP), Oct 2010, St-Malo, France. 2010 IEEE International Workshop on Multimedia Signal Processing (MMSP), pp.472, 2010, .
+[^3]: A. Barachant, S. Bonnet, M. Congedo and C. Jutten, "Common Spatial Pattern revisited by Riemannian geometry," 2010 IEEE International Workshop on Multimedia Signal Processing, Saint Malo, 2010, pp. 472-476, doi: 10.1109/MMSP.2010.5662067.
+
 [^4]: [Introduction to Common Spatial Pattern Filters for EEG Motor Imagery Classification](https://www.slideshare.net/yokotatsuya/introduction-to-common-spatial-pattern-filters-for-eeg-motor-imagery-classification?from_action=save)
