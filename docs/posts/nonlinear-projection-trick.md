@@ -7,7 +7,7 @@ tags:
 mathjax: true
 excerpt: 介绍核方法中的非线性投影技巧(Nonlinear Projection Trick in Kernel Methods)
 urlname: nonlinear-projection-trick
-date: 2020-08-09 11:00:00
+date: 2020-08-18 11:00:00
 ---
 
 ## 写在前面
