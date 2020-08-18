@@ -18,6 +18,7 @@ title: Algorithm
 - [图与流形](/posts/manifold-graph.md)
 - [稀疏主成分分析](/posts/Sparse-PCA.md)
 - [共空间模式](/posts/common-spatial-patterns.md)
+- [核方法中的非线性投影技巧](/posts/nonlinear-projection-trick.md)
 
 ## 多复变函数论
 

@@ -174,7 +174,8 @@ function getPostSidebar (groupA, groupB) {
         'manifold-learning',
         'manifold-graph',
         'Sparse-PCA',
-        'common-spatial-patterns'
+        'common-spatial-patterns',
+        'nonlinear-projection-trick'
       ]
     },
     {
