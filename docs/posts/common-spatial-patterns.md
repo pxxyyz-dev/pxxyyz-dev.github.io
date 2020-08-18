@@ -199,7 +199,7 @@ $$
 
 ## 黎曼流形的几何解释
 
-首先给出CSP的联合对角化的求解算法流程($\Sigma_2,\Sigma_1$用$P_1,P_2$代替)[^3]
+首先给出CSP的联合对角化的求解算法流程($\Sigma_2,\Sigma_1$用$P_1,P_2$代替)
 
 ![](common-spatial-patterns/CSP-Algorithm.png)
 
@@ -247,13 +247,14 @@ $$
 $$
 ![](common-spatial-patterns/Riemannian.png)
 
-CSP的黎曼距离代表欧式特征空间中欧式距离的近似。 因此，基于黎曼距离的空间滤波器选择可隐式确保特征空间中类的最大可分离性。
+CSP的黎曼距离代表欧式特征空间中欧式距离的近似。 因此，基于黎曼距离的空间滤波器选择可隐式确保特征空间中类的最大可分离性。[^3]
 
 ## 参考文献
 
 [^1]: Blankertz B, Tomioka R, Lemm S, et al. Optimizing Spatial filters for Robust EEG Single-Trial Analysis[J]. IEEE Signal Processing Magazine, 2008, 25(1): 41-56.
+
 [^2]: Lotte F, Guan C. Regularizing Common Spatial Patterns to Improve BCI Designs: Unified Theory and New Algorithms[J]. IEEE Transactions on Biomedical Engineering, 2011, 58(2): 355-362.
 
-[^3]: A. Barachant, S. Bonnet, M. Congedo and C. Jutten, "Common Spatial Pattern revisited by Riemannian geometry," 2010 IEEE International Workshop on Multimedia Signal Processing, Saint Malo, 2010, pp. 472-476, doi: 10.1109/MMSP.2010.5662067.
+[^3]: A. Barachant, S. Bonnet, M. Congedo and C. Jutten, "Common Spatial Pattern revisited by Riemannian geometry," 2010 IEEE International Workshop on Multimedia Signal Processing, Saint Malo, 2010, pp. 472-476.
 
 [^4]: [Introduction to Common Spatial Pattern Filters for EEG Motor Imagery Classification](https://www.slideshare.net/yokotatsuya/introduction-to-common-spatial-pattern-filters-for-eeg-motor-imagery-classification?from_action=save)
