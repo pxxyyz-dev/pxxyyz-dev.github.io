@@ -19,7 +19,7 @@ title: Algorithm
 - [稀疏主成分分析](/posts/Sparse-PCA.md)
 - [共空间模式](/posts/common-spatial-patterns.md)
 - [核方法中的非线性投影技巧](/posts/nonlinear-projection-trick.md)
-
+- [L1/L2最小化的加速算法](/posts/minimization-l1-l2.md)
 ## 多复变函数论
 
 - [Fock-Bargmann-Hartogs域](/posts/Fock-Bargmann-Hartogs.md)
