@@ -177,7 +177,8 @@ function getPostSidebar (groupA, groupB) {
         'common-spatial-patterns',
         'nonlinear-projection-trick',
         'minimization-l1-l2',
-        'majorization-minimization'
+        'majorization-minimization',
+        'Structured-low-rank-approximation'
       ]
     },
     {
