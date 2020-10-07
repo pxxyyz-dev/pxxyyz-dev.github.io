@@ -6,7 +6,7 @@ tags:
   - Toeplitz矩阵
   - 低秩表示
 mathjax: true
-excerpt: Toeplitz矩阵补齐问题
+excerpt: 介绍关于Toeplitz矩阵的低秩恢复和补全的系列算法。
 urlname: Toeplitz-matrix-completion
 date: 2020-10-07 15:40:00
 ---
