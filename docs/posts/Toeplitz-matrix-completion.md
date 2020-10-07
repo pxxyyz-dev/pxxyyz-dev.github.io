@@ -1,5 +1,5 @@
 ---
-title: Toeplitz矩阵补齐问题
+title: Toeplitz矩阵补全问题
 categories:
   - 信号处理
 tags:
