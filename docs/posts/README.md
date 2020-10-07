@@ -22,6 +22,7 @@ title: Algorithm
 - [L1/L2最小化的加速算法](/posts/minimization-l1-l2.md)
 - [majorization-minimization算法](/posts/majorization-minimization.md)
 - [结构化低秩近似](/posts/Structured-low-rank-approximation.md)
+- [Toeplitz矩阵补齐问题](/posts/Toeplitz-matrix-completion.md)
 ## 多复变函数论
 
 - [Fock-Bargmann-Hartogs域](/posts/Fock-Bargmann-Hartogs.md)

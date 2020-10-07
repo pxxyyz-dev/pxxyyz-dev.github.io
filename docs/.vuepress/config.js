@@ -178,7 +178,8 @@ function getPostSidebar (groupA, groupB) {
         'nonlinear-projection-trick',
         'minimization-l1-l2',
         'majorization-minimization',
-        'Structured-low-rank-approximation'
+        'Structured-low-rank-approximation',
+        'Toeplitz-matrix-completion'
       ]
     },
     {
