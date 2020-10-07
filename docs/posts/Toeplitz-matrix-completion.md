@@ -419,37 +419,3 @@ To do
 [^7]: Wen R, Fu Y. Toeplitz matrix completion via a low-rank approximation algorithm[J]. Journal of Inequalities and Applications, 2020, 2020(1).
 
 [^8]:Wang Z , Lai M J , Lu Z , et al. Orthogonal Rank-One Matrix Pursuit for Low Rank Matrix Completion[J]. Siam Journal on Scientific Computing, 2014, 37(1).
-
-
-
-<script src="/js/lazyload.js"></script>
-<script>
-    $('#post img:not(.no-zoom img, img[no-zoom]), img[zoom]').each(
-      function () {
-        var element = document.createElement('a');
-        $(element).attr('data-fancybox', 'images');
-        $(element).attr('href', $(this).attr('src'));
-        $(this).wrap(element);
-      }
-    );
-</script>
-<script>
-  $(document).ready(function () {
-      var boardCtn = $('#board-ctn');
-      var boardTop = boardCtn.offset().top;
-      tocbot.init({
-        tocSelector: '#tocbot',
-        contentSelector: '#post-body',
-        linkClass: 'tocbot-link',
-        activeLinkClass: 'tocbot-active-link',
-        listClass: 'tocbot-list',
-        isCollapsedClass: 'tocbot-is-collapsed',
-        collapsibleClass: 'tocbot-is-collapsible',
-        scrollSmooth: true,
-        headingsOffset: -boardTop
-      });
-      if ($('.toc-list-item').length > 0) {
-        $('#toc').css('visibility', 'visible');
-      }
-  });
-</script>
