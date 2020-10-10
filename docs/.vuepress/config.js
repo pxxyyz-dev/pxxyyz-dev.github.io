@@ -179,7 +179,8 @@ function getPostSidebar (groupA, groupB) {
         'minimization-l1-l2',
         'majorization-minimization',
         'Structured-low-rank-approximation',
-        'Toeplitz-matrix-completion'
+        'Toeplitz-matrix-completion',
+        'Rank-One-Matrix-Pursuit-Matrix-Completion'
       ]
     },
     {

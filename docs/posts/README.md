@@ -23,6 +23,7 @@ title: Algorithm
 - [majorization-minimization算法](/posts/majorization-minimization.md)
 - [结构化低秩近似](/posts/Structured-low-rank-approximation.md)
 - [Toeplitz矩阵补全问题](/posts/Toeplitz-matrix-completion.md)
+- [秩1矩阵追踪矩阵补全](/posts/Rank-One-Matrix-Pursuit-Matrix-Completion.md)
 ## 多复变函数论
 
 - [Fock-Bargmann-Hartogs域](/posts/Fock-Bargmann-Hartogs.md)
