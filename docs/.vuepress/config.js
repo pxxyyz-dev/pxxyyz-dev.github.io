@@ -180,7 +180,10 @@ function getPostSidebar (groupA, groupB) {
         'majorization-minimization',
         'Structured-low-rank-approximation',
         'Toeplitz-matrix-completion',
-        'Rank-One-Matrix-Pursuit-Matrix-Completion'
+        'Rank-One-Matrix-Pursuit-Matrix-Completion',
+        'Particularities-commonalities-SSA',
+        'Cadzow-iterative-method',
+        'Filter-SSA'
       ]
     },
     {

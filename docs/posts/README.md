@@ -24,6 +24,9 @@ title: Algorithm
 - [结构化低秩近似](/posts/Structured-low-rank-approximation.md)
 - [Toeplitz矩阵补全问题](/posts/Toeplitz-matrix-completion.md)
 - [秩1矩阵追踪矩阵补全](/posts/Rank-One-Matrix-Pursuit-Matrix-Completion.md)
+- [奇异谱分析的特殊性与共性](/posts/Particularities-commonalities-SSA.md)
+- [Cadzow迭代法](/posts/Cadzow-iterative-method.md)
+- [奇异谱分析的滤波性质](/posts/Filter-SSA.md)
 ## 多复变函数论
 
 - [Fock-Bargmann-Hartogs域](/posts/Fock-Bargmann-Hartogs.md)
