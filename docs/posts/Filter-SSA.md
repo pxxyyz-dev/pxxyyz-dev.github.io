@@ -226,7 +226,7 @@ $$
 $$
 \boldsymbol s_{\text{out}}=\mathcal A(Z_k)=D\sum_{i=1}^{k}w_i \mathcal H_p(\mathcal H(\boldsymbol s_{\text{in}}) \boldsymbol \theta_i)(J\boldsymbol x_i)
 $$
-其中需要注意构造一个双正交的向量组$(\boldsymbol \theta_1,\ldots,\boldsymbol \theta_n)^T=(x_1,\ldots,x_n)^T$，即$\boldsymbol \theta_i^Tx_j=1$。由此可得等式$H\boldsymbol \theta_i=\delta_i\hat {\boldsymbol u}_i$。
+其中需要注意构造一个双正交的向量组$(\boldsymbol \theta_1,\ldots,\boldsymbol \theta_n)^T=(x_1,\ldots,x_n)^{-1}$，即$\boldsymbol \theta_i^Tx_j=1$。由此可得等式$H\boldsymbol \theta_i=\delta_i\hat {\boldsymbol u}_i$。
 
 ### 截断商奇异值分解的滤波器图示
 
