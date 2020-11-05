@@ -184,7 +184,8 @@ function getPostSidebar (groupA, groupB) {
         'Particularities-commonalities-SSA',
         'Cadzow-iterative-method',
         'Filter-SSA',
-        'Structured-Matrix-Completion'
+        'Structured-Matrix-Completion',
+        'Karhunen-Loeve-transform'
       ]
     },
     {

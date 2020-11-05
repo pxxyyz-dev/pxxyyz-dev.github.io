@@ -28,6 +28,7 @@ title: Algorithm
 - [Cadzow迭代法](/posts/Cadzow-iterative-method.md)
 - [奇异谱分析的滤波性质](/posts/Filter-SSA.md)
 - [结构化矩阵补全算法](/posts/Structured-Matrix-Completion.md)
+- [Karhunen-Loeve变换](/posts/Karhunen-Loeve-transform.md)
 ## 多复变函数论
 
 - [Fock-Bargmann-Hartogs域](/posts/Fock-Bargmann-Hartogs.md)
