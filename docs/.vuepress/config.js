@@ -183,7 +183,8 @@ function getPostSidebar (groupA, groupB) {
         'Rank-One-Matrix-Pursuit-Matrix-Completion',
         'Particularities-commonalities-SSA',
         'Cadzow-iterative-method',
-        'Filter-SSA'
+        'Filter-SSA',
+        'Structured-Matrix-Completion'
       ]
     },
     {
