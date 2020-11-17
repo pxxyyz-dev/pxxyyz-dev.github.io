@@ -36,8 +36,10 @@ $$
 
 对于的低秩Toeplitz矩阵求解问题如下：
 $$
-\min_R f(R) = \text{Tr}(\hat R R^{-1})+\log\det R\\
-\text{s.t.} R=T+\sigma I, \text{rank}(T)\leq \rho, T\in \mathcal T
+\begin{aligned}
+&\min_R f(R) = \text{Tr}(\hat R R^{-1})+\log\det R\\
+&\text{s.t.} R=T+\sigma I, \text{rank}(T)\leq \rho, T\in \mathcal T
+\end{aligned}
 $$
 下面利用Toeplitz矩阵的参数化表示，将上述问题转化为向量形式的优化问题
 
@@ -69,8 +71,10 @@ $$
 
 下面用$F$来代替$\tilde F$，因此对应的向量形式的等价优化问题如下。
 $$
-\min_{\boldsymbol p} f(\boldsymbol p) = \text{Tr}(\hat R R^{-1})+\log\det R\\
-\text{s.t.} R=F(P+\sigma I)F^H, P=\text{diag}(\boldsymbol p),\|\boldsymbol p\|_0\leq\rho
+\begin{aligned}
+&\min_{\boldsymbol p} f(\boldsymbol p) = \text{Tr}(\hat R R^{-1})+\log\det R\\
+&\text{s.t.} R=F(P+\sigma I)F^H, P=\text{diag}(\boldsymbol p),\|\boldsymbol p\|_0\leq\rho
+\end{aligned}
 $$
 
 ## 基于MM的模型求解算法
@@ -113,8 +117,10 @@ $$
 $$
 因此仅需要对$g(\boldsymbol p|\boldsymbol p_t)$求解极小化问题即可。
 $$
-\min_{p_k} g(\boldsymbol p|\boldsymbol p_t) = \boldsymbol w_t^H\boldsymbol p +\boldsymbol d_t^H(\boldsymbol p+\sigma \boldsymbol1)^{-1}\\
-\text{s.t.} p_k \geq 0,\|\boldsymbol p\|_0\leq\rho
+\begin{aligned}
+&\min_{p_k} g(\boldsymbol p|\boldsymbol p_t) = \boldsymbol w_t^H\boldsymbol p +\boldsymbol d_t^H(\boldsymbol p+\sigma \boldsymbol1)^{-1}\\
+&\text{s.t.} p_k \geq 0,\|\boldsymbol p\|_0\leq\rho
+\end{aligned}
 $$
 该问题显然是可分离变量的，对单个变量$p_j$有
 $$
