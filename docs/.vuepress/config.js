@@ -185,7 +185,8 @@ function getPostSidebar (groupA, groupB) {
         'Cadzow-iterative-method',
         'Filter-SSA',
         'Structured-Matrix-Completion',
-        'Karhunen-Loeve-transform'
+        'Karhunen-Loeve-transform',
+        'MELT'
       ]
     },
     {
