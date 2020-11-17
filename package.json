@@ -17,7 +17,7 @@
   "repository": "https://github.com/pxxyyz-dev/pxxyyz-dev.github.io.git",
   "license": "MIT",
   "dependencies": {
-    "@iktakahiro/markdown-it-katex": "^4.0.0",
+    "@iktakahiro/markdown-it-katex": "^4.0.1",
     "@vuepress/plugin-back-to-top": "^1.5.2",
     "@vuepress/plugin-medium-zoom": "^1.5.2",
     "ant-design-vue": "^1.6.3",
