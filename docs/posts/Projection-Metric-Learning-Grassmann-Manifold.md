@@ -140,7 +140,6 @@ $$
 
 ## References
 
-[^1]:Zhiwu Huang, Computer Vision Lab: <https://zhiwu-huang.github.io/>
-[^2]: Z. Huang, R. Wang, S. Shan and X. Chen, "Projection Metric Learning on Grassmann Manifold with Application to Video based Face Recognition," *2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, Boston, MA, 2015, pp. 140-149, doi: 10.1109/CVPR.2015.7298609.
+[^1]: Zhiwu Huang, Computer Vision Lab: <https://zhiwu-huang.github.io/>
 
-
+[^2]: Z. Huang, R. Wang, S. Shan and X. Chen, Projection Metric Learning on Grassmann Manifold with Application to Video based Face Recognition, *2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, Boston, MA, 2015, pp. 140-149, doi: 10.1109/CVPR.2015.7298609.
