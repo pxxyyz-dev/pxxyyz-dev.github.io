@@ -30,6 +30,7 @@ title: Algorithm
 - [结构化矩阵补全算法](/posts/Structured-Matrix-Completion.md)
 - [Karhunen-Loeve变换](/posts/Karhunen-Loeve-transform.md)
 - [低秩Toeplitz协方差矩阵的极大似然估计](/posts/MELT.md)
+- [Grassmann流形上的投影度量学习](/posts/Projection-Metric-Learning-Grassmann-Manifold.md)
 ## 多复变函数论
 
 - [Fock-Bargmann-Hartogs域](/posts/Fock-Bargmann-Hartogs.md)

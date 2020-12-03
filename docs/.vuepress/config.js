@@ -186,7 +186,8 @@ function getPostSidebar (groupA, groupB) {
         'Filter-SSA',
         'Structured-Matrix-Completion',
         'Karhunen-Loeve-transform',
-        'MELT'
+        'MELT',
+        'Projection-Metric-Learning-Grassmann-Manifold'
       ]
     },
     {
