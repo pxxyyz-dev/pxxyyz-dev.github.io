@@ -7,7 +7,6 @@ tags:
   - 度量学习
   - 判别分析
 mathjax: true
-password: password
 excerpt: 介绍2015年CVPR的文章——Grassmann流形上的投影度量学习
 urlname: Projection-Metric-Learning-Grassmann-Manifold
 date: 2020-11-28 12:00:00
@@ -141,9 +140,7 @@ $$
 
 ## References
 
-[^1]:[Zhiwu Huang, Computer Vision Lab](https://zhiwu-huang.github.io/)
-
+[^1]:Zhiwu Huang, Computer Vision Lab: <https://zhiwu-huang.github.io/>
 [^2]: Z. Huang, R. Wang, S. Shan and X. Chen, "Projection Metric Learning on Grassmann Manifold with Application to Video based Face Recognition," *2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)*, Boston, MA, 2015, pp. 140-149, doi: 10.1109/CVPR.2015.7298609.
-
 
 
