@@ -31,6 +31,7 @@ title: Algorithm
 - [Karhunen-Loeve变换](/posts/Karhunen-Loeve-transform.md)
 - [低秩Toeplitz协方差矩阵的极大似然估计](/posts/MELT.md)
 - [Grassmann流形上的投影度量学习](/posts/Projection-Metric-Learning-Grassmann-Manifold.md)
+- [快速Cadzow算法及梯度变体](/posts/Fast-Cadzow-Algorithm-Gradient-Variant.md)
 ## 多复变函数论
 
 - [Fock-Bargmann-Hartogs域](/posts/Fock-Bargmann-Hartogs.md)

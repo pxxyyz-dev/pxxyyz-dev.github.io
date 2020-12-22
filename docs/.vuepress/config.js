@@ -187,7 +187,8 @@ function getPostSidebar (groupA, groupB) {
         'Structured-Matrix-Completion',
         'Karhunen-Loeve-transform',
         'MELT',
-        'Projection-Metric-Learning-Grassmann-Manifold'
+        'Projection-Metric-Learning-Grassmann-Manifold',
+        'Fast-Cadzow-Algorithm-Gradient-Variant'
       ]
     },
     {
