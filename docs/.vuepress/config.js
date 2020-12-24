@@ -188,7 +188,8 @@ function getPostSidebar (groupA, groupB) {
         'Karhunen-Loeve-transform',
         'MELT',
         'Projection-Metric-Learning-Grassmann-Manifold',
-        'Fast-Cadzow-Algorithm-Gradient-Variant'
+        'Fast-Cadzow-Algorithm-Gradient-Variant',
+        'MDRM-TSLDA'
       ]
     },
     {
