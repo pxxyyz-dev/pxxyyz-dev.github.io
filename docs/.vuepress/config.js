@@ -189,7 +189,8 @@ function getPostSidebar (groupA, groupB) {
         'MELT',
         'Projection-Metric-Learning-Grassmann-Manifold',
         'Fast-Cadzow-Algorithm-Gradient-Variant',
-        'MDRM-TSLDA'
+        'MDRM-TSLDA',
+        'Dimensionality-Reduction-SPD-Manifolds'
       ]
     },
     {
