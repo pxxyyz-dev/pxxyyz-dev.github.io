@@ -190,7 +190,8 @@ function getPostSidebar (groupA, groupB) {
         'Projection-Metric-Learning-Grassmann-Manifold',
         'Fast-Cadzow-Algorithm-Gradient-Variant',
         'MDRM-TSLDA',
-        'Dimensionality-Reduction-SPD-Manifolds'
+        'Dimensionality-Reduction-SPD-Manifolds',
+        'Frechet-mean-Grassmann-discriminant-analysis'
       ]
     },
     {
