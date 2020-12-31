@@ -35,6 +35,7 @@ title: Algorithm
 - [基于黎曼几何的多分类算法](/posts/MDRM-TSLDA.md)
 - [SPD流形的降维](/posts/Dimensionality-Reduction-SPD-Manifolds.md)
 - [基于Frechet均值的Grassmann判别分析](/posts/Frechet-mean-Grassmann-discriminant-analysis.md)
+- 
 ## 多复变函数论
 
 - [Fock-Bargmann-Hartogs域](/posts/Fock-Bargmann-Hartogs.md)
