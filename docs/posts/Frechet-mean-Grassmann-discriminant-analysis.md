@@ -104,12 +104,12 @@ $$
 有
 $$
 \begin{aligned} 
- d_b&{}=\sum_{k=1}^{K}n_k\| A^TM^{\prime (k)}{M^{\prime (k)T}}A-A^TM^{\prime } M^{\prime T}A\| _F^2\\ 
- &{}=\sum_{k=1}^{K}n_k\| A^\mathrm{{T}}B^{(k)}A\|_F^2\\ 
- &{}=\sum_{k=1}^{K}n_k\text{tr}(A^\mathrm{{T}}{B^{(k)}}AA^TB^{(k)}A) \\
-d_w &{}=\| A^T X_i^{\prime (k)}{X_{i}^{\prime (k)T}}^A-A^TM^{\prime (k)}{M^{\prime (k)T}}^A\| _F^2\\ 
-&{}=\sum_{k=1}^{K}\sum_{i=1}^{n_k}n_k\| A^TQ_{ik}A\| _F^2\\ 
-&{}=\sum_{k=1}^{K}\sum_{i=1}^{n_k}n_k \text{tr} (A^TQ_{ik}AA^TQ_{ik}A) 
+ d_b&=\sum_{k=1}^K n_k\| A^TM^{\prime (k)}M^{\prime (k)T}A-A^TM^{\prime} M^{\prime T}A\| _F^2\\ 
+ &=\sum_{k=1}^K n_k\| A^T B^{(k)}A\|_F^2\\ 
+ &=\sum_{k=1}^K n_k\text{tr}(A^TB^{(k)}AA^TB^{(k)}A) \\
+d_w &=\| A^T X_i^{\prime (k)} X_{i}^{\prime (k)T}A-A^TM^{\prime (k)}M^{\prime (k)T}A\| _F^2\\ 
+&=\sum_{k=1}^K \sum_{i=1}^{n_k}n_k\| A^TQ_{ik}A\| _F^2\\ 
+&=\sum_{k=1}^K \sum_{i=1}^{n_k}n_k \text{tr} (A^TQ_{ik}AA^TQ_{ik}A) 
 \end{aligned}
 $$
 因此可以考虑固定内部$A^{(t-1)}A^{(t-1)T}$作为已知，迭代外部的$A$，直至收敛可解决判别模型。记
