@@ -191,7 +191,8 @@ function getPostSidebar (groupA, groupB) {
         'Fast-Cadzow-Algorithm-Gradient-Variant',
         'MDRM-TSLDA',
         'Dimensionality-Reduction-SPD-Manifolds',
-        'Frechet-mean-Grassmann-discriminant-analysis'
+        'Frechet-mean-Grassmann-discriminant-analysis',
+        'Distance-and-angles'
       ]
     },
     {
