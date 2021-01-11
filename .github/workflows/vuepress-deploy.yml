@@ -49,8 +49,8 @@ jobs:
     #    staticSrcPath: ./docs/.vuepress/dist
 
     - name: Deploy static to Tencent CloudBase
-        with:
-          ref: master
+      with:
+        ref: master
       shell: bash
       run: |
         sudo npm i -g @cloudbase/cli
