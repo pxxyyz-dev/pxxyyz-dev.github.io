@@ -40,10 +40,18 @@ jobs:
         git commit -m 'Update'
         git push -f git@github.com:pxxyyz-dev/pxxyyz-dev.github.io.git master
 
-    - name: Deploy to Tencent CloudBase
-      uses: TencentCloudBase/cloudbase-action@v1.1.1
-      with:
-        secretId: ${{ secrets.SECRET_ID }}
-        secretKey: ${{ secrets.SECRET_KEY }}
-        envId: ${{ secrets.ENV_ID }}
-        staticSrcPath: ./docs/.vuepress/dist
+    #- name: Deploy to Tencent CloudBase
+    #  uses: TencentCloudBase/cloudbase-action@v1.1.1
+    #  with:
+    #    secretId: ${{ secrets.SECRET_ID }}
+    #    secretKey: ${{ secrets.SECRET_KEY }}
+    #    envId: ${{ secrets.ENV_ID }}
+    #    staticSrcPath: ./docs/.vuepress/dist
+
+    - name: Deploy static to Tencent CloudBase
+      shell: bash
+      run: |
+        sudo npm i -g @cloudbase/cli
+        tcb login --apiKeyId ${{ secrets.SECRET_ID }} --apiKey ${{ secrets.SECRET_KEY }}
+        rm -rf .git .github
+        tcb hosting deploy . -e ${{ secrets.ENV_ID }}
