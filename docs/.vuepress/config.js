@@ -192,7 +192,8 @@ function getPostSidebar (groupA, groupB) {
         'MDRM-TSLDA',
         'Dimensionality-Reduction-SPD-Manifolds',
         'Frechet-mean-Grassmann-discriminant-analysis',
-        'Distance-and-angles'
+        'Distance-and-angles',
+        'Task-Driven-Dictionary-Learning'
       ]
     },
     {

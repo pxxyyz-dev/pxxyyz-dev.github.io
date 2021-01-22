@@ -36,6 +36,7 @@ title: Algorithm
 - [SPD流形的降维](/posts/Dimensionality-Reduction-SPD-Manifolds.md)
 - [基于Frechet均值的Grassmann判别分析](/posts/Frechet-mean-Grassmann-discriminant-analysis.md)
 - [子空间度量与扰动分析](/posts/Distance-and-angles.md)
+- [任务驱动下的字典学习](/posts/Task-Driven-Dictionary-Learning.md)
 
 ## 多复变函数论
 
