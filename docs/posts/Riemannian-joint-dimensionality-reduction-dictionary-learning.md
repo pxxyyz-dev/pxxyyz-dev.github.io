@@ -41,7 +41,7 @@ $$
 
 该模型使用双线性映射实现流形降维。具体来说，给定矩阵$\mathbf{X}_{k,n} \in \mathcal{S}_{++}^m$，利用半酉阵$\mathbf{U} \in {\rm St}(d, m)\doteq\{ \mathbf{U} \in \mathbb{R}^{m \times d}: \mathbf{U}^T \mathbf{U} = \mathbf{I} \}$，投影结果为$\mathbf{U}^T\mathbf{X}_{k,n} \mathbf{U} \in \mathcal{S}_{++}^d$。
 
-优化变量说明：投影矩阵和字典在乘积流形上$(\mathbf{U}, \mathcal{D}) \in \mathcal{N}\doteq\{{\rm St}{(d,m)} \times \prod^H \mathcal{S}^d_{++}\}$，稀疏系数矩阵$\mathbf{A} \in \mathbb{R}^{H \times N}_+$。
+优化变量说明：投影矩阵和字典在乘积流形上$(\mathbf U, \mathcal D) \in \mathcal N\doteq\{\mathrm{St}{(d,m)} \times \prod^H \mathcal{S}^d_{++}\}$，稀疏系数矩阵$\mathbf{A} \in \mathbb{R}^{H \times N}_+$。
 
 $$
 \begin{aligned}
