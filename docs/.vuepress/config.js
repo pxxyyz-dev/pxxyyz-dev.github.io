@@ -193,7 +193,8 @@ function getPostSidebar (groupA, groupB) {
         'Dimensionality-Reduction-SPD-Manifolds',
         'Frechet-mean-Grassmann-discriminant-analysis',
         'Distance-and-angles',
-        'Task-Driven-Dictionary-Learning'
+        'Task-Driven-Dictionary-Learning',
+        'Riemannian-joint-dimensionality-reduction-dictionary-learning'
       ]
     },
     {
