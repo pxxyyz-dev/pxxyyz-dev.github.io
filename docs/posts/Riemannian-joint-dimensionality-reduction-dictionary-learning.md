@@ -7,7 +7,6 @@ tags:
   - 降维
   - 字典学习
 mathjax: true
-password: password
 excerpt: 介绍一篇基于黎曼几何的联合降维和字典学习会议论文
 urlname: Riemannian-joint-dimensionality-reduction-dictionary-learning
 date: 2021-01-23 17:20:00
