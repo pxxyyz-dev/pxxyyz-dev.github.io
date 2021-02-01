@@ -38,6 +38,7 @@ title: Algorithm
 - [子空间度量与扰动分析](/posts/Distance-and-angles.md)
 - [任务驱动下的字典学习](/posts/Task-Driven-Dictionary-Learning.md)
 - [联合降维和字典学习](/posts/Riemannian-joint-dimensionality-reduction-dictionary-learning.md)
+- [基于随机投影的QR去噪算法](/posts/random-QR-denoising.md)
 
 ## 多复变函数论
 

@@ -194,7 +194,8 @@ function getPostSidebar (groupA, groupB) {
         'Frechet-mean-Grassmann-discriminant-analysis',
         'Distance-and-angles',
         'Task-Driven-Dictionary-Learning',
-        'Riemannian-joint-dimensionality-reduction-dictionary-learning'
+        'Riemannian-joint-dimensionality-reduction-dictionary-learning',
+        'random-QR-denoising'
       ]
     },
     {
