@@ -62,7 +62,7 @@ date: 2021-02-01 10:00:00
 
 ### rQRd算法流程
 
-![](random-QR-denoising\Alg-rQRd.png)
+![](random-QR-denoising/Alg-rQRd.png)
 
 ## 快速Hankel矩阵乘积
 
@@ -73,7 +73,7 @@ date: 2021-02-01 10:00:00
 
 具体流程如下：
 
-![](random-QR-denoising\Alg-Fhv.png)
+![](random-QR-denoising/Alg-Fhv.png)
 
 回顾到随机QR去噪算法的投影和对角平均过程：
 $$
@@ -96,7 +96,7 @@ $$
 
 ### urQRd算法流程
 
-![](random-QR-denoising\Alg-urQRd.png)
+![](random-QR-denoising/Alg-urQRd.png)
 
 ## 小结
 
