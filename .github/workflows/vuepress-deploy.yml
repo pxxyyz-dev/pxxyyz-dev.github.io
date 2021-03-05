@@ -6,9 +6,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    # name: Tencent Cloudbase Github Action Example
-    # env: 
-    #   accessToken: ${{ secrets.accessToken }}
+    name: Tencent Cloudbase Github Action Example
+    env: 
+      accessToken: ${{ secrets.accessToken }}
     steps:
     - name: Download Source file
       uses: actions/checkout@v2
