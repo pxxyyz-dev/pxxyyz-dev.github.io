@@ -39,7 +39,7 @@ jobs:
         git commit -m 'Update'
         git push -f git@github.com:pxxyyz-dev/pxxyyz-dev.github.io.git master
     - name: Deploy to Tencent CloudBase
-      uses: TencentCloudBase/cloudbase-action@v2 # TencentCloudBase/cloudbase-action@v1.1.1
+      uses: TencentCloudBase/cloudbase-action@v1.1.1 # TencentCloudBase/cloudbase-action@v2
       with:
         secretId: ${{ secrets.SECRET_ID }}
         secretKey: ${{ secrets.SECRET_KEY }}
