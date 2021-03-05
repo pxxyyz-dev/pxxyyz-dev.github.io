@@ -6,9 +6,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    name: Tencent Cloudbase Github Action Example
-    env: 
-      accessToken: ${{ secrets.accessToken }}
+
     steps:
     - name: Download Source file
       uses: actions/checkout@v2
@@ -29,31 +27,24 @@ jobs:
         chmod 600 ~/.ssh/id_rsa
         ssh-keyscan github.com >> ~/.ssh/known_hosts
 
-    # - name: Vuepress
-    #   run: |
-    #     yarn
-    #     yarn run build
-    #     cp README.md docs/.vuepress/dist
-    #     cd docs/.vuepress/dist
-    #     git config --global user.name 'pxxyyz-dev'
-    #     git config --global user.email 'pxxyyz@gmail.com'
-    #     git init
-    #     git add -A
-    #     git commit -m 'Update'
-    #     git push -f git@github.com:pxxyyz-dev/pxxyyz-dev.github.io.git master
+     - name: Vuepress
+       run: |
+         yarn
+         yarn run build
+         cp README.md docs/.vuepress/dist
+         cd docs/.vuepress/dist
+         git config --global user.name 'pxxyyz-dev'
+         git config --global user.email 'pxxyyz@gmail.com'
+         git init
+         git add -A
+         git commit -m 'Update'
+         git push -f git@github.com:pxxyyz-dev/pxxyyz-dev.github.io.git master
 
     - name: Deploy to Tencent CloudBase
-      uses: TencentCloudBase/cloudbase-action@v2 # TencentCloudBase/cloudbase-action@v1.1.1 
+      # uses: TencentCloudBase/cloudbase-action@v2 
+      uses:  TencentCloudBase/cloudbase-action@v1.1.1 
       with:
         secretId: ${{ secrets.SECRET_ID }}
         secretKey: ${{ secrets.SECRET_KEY }}
         envId: ${{ secrets.ENV_ID }}
-        # staticSrcPath: ./docs/.vuepress/dist
-
-    #- name: Deploy static to Tencent CloudBase
-    #  shell: bash
-    #  run: |
-    #    sudo npm i -g @cloudbase/cli
-    #    tcb login --apiKeyId ${{ secrets.SECRET_ID }} --apiKey ${{ secrets.SECRET_KEY }}
-    #    cd docs/.vuepress/dist
-    #    tcb hosting deploy ./ -e ${{ secrets.ENV_ID }}
+        staticSrcPath: ./docs/.vuepress/dist
