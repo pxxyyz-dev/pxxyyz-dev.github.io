@@ -6,7 +6,9 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    # name: Tencent Cloudbase Github Action Example
+    # env: 
+    #   accessToken: ${{ secrets.accessToken }}
     steps:
     - name: Download Source file
       uses: actions/checkout@v2
@@ -41,12 +43,12 @@ jobs:
         git push -f git@github.com:pxxyyz-dev/pxxyyz-dev.github.io.git master
 
     - name: Deploy to Tencent CloudBase
-      uses: TencentCloudBase/cloudbase-action@v2 # TencentCloudBase/cloudbase-action@v1.1.1
+      uses: TencentCloudBase/cloudbase-action@v2 # TencentCloudBase/cloudbase-action@v1.1.1 
       with:
         secretId: ${{ secrets.SECRET_ID }}
         secretKey: ${{ secrets.SECRET_KEY }}
         envId: ${{ secrets.ENV_ID }}
-        staticSrcPath: ./docs/.vuepress/dist
+        # staticSrcPath: ./docs/.vuepress/dist
 
     #- name: Deploy static to Tencent CloudBase
     #  shell: bash
