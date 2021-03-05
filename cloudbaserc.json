@@ -7,7 +7,7 @@
         "inputs": {
           "installCommand": "npm install --prefer-offline --no-audit --progress=false",
           "buildCommand": "npm run build",
-          "outputPath": "./docs/.vuepress/dist", // "dist",
+          "outputPath": "./docs/.vuepress/dist",
           "cloudPath": "/path",
           "ignore": [".git", ".github", "node_modules", "cloudbaserc.js"]
         }
